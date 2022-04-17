@@ -1,4 +1,40 @@
+// typography
 @font-face {
     font-family: 'rubik';
     src: url('../fonts/rubik-regular.woff2') format('woff2');
+}
+
+$font-main: rubik, sans-serif;
+
+// colours
+$clr-primary: #1d55ab;
+$clr-accent: #c5cc00;
+$clr-bg: lighten($clr-accent, 44%);
+
+// breakpoints
+$breakpoint-small: 420px;
+$breakpoint-med: 700px;
+$breakpoint-lrg: 1200px;
+
+@mixin small {
+  @media only screen and (max-width: $breakpoint-small) {
+      @content;
   }
+}
+
+@mixin medium {
+  @media only screen and (min-width: $breakpoint-med) {
+      @content;
+  }
+}
+
+@mixin large {
+  @media only screen and (min-width: $breakpoint-lrg) {
+      @content;
+  }
+}
+
+// utils
+@mixin spacer {
+  padding: 1rem;
+}

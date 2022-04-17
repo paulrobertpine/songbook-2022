@@ -1,0 +1,46 @@
+#site-header {
+    @include spacer;
+    background-color: $clr-primary;
+    position: fixed;
+    width: 100%;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        svg {
+            fill: $clr-accent;
+        }
+    
+        a {
+            display: inline-block;
+            margin: 0;
+            line-height: 0;
+    
+            svg {
+                width: 2.5rem;
+                height: auto;
+            }
+        }
+
+        #scroll-control {
+            display: flex;
+            align-items: center;
+            color: $clr-accent;
+            font-size: 1.5rem;
+
+            svg {
+                padding: 0 1rem 0;
+            }
+
+            p {
+                width: 2rem;
+                margin: 0;
+                text-align: center;
+            }
+        }
+    }
+
+
+}

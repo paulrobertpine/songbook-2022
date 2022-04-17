@@ -1,14 +1,17 @@
 import React from "react"
+import Header from "./header"
 import "../sass/styles.scss"
 
 export default function Layout({ children }) {
   return (
     <>
-      <header>
-        <span>Songbook</span>
-      </header>
-      <main>{children}</main>
-      <footer>© {new Date().getFullYear()}</footer>
+      <Header />
+      <main id="site-main" className="container">
+        {children}
+      </main>
+      <footer id="site-footer">
+        <section className="container">© {new Date().getFullYear()}</section>
+      </footer>
     </>
   )
 }
