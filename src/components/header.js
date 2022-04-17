@@ -1,56 +1,39 @@
 import React from "react"
 import Link from "gatsby-link"
 import HeaderIcon from "../images/musician.inline.svg"
-import {
-  // IoSpeedometer,
-  IoPlayCircle,
-  IoPauseCircle,
-  IoPlayBackCircle,
-  IoPlayForwardCircle,
-} from "react-icons/io5"
-
-const defaultSpeed = 5
+import { IoPlayCircle, IoPauseCircle } from "react-icons/io5"
+import Slider from "rc-slider"
+import "rc-slider/assets/index.css"
 let scrolldelay = -1
+const defaultSpeed = 50
 
 export default function Header() {
-  const [speed, setSpeed] = React.useState(defaultSpeed)
   const [scrolling, setScrolling] = React.useState(false)
-  // console.log(scrolling)
-
-  // React.useEffect(() => {
-  //   // Update the document title using the browser API
-  //   document.title = `You clicked ${count} times`;
-  // });
-
-  function speedUp() {
-    if (speed < 50) {
-      setSpeed(speed + 1)
-      // scrollPage()
-    }
-  }
-
-  function speedDown() {
-    if (speed > 1) {
-      setSpeed(speed - 1)
-      // scrollPage()
-    }
-  }
+  const [speed, setSpeed] = React.useState(defaultSpeed)
 
   function toggleScroll(bool) {
     setScrolling(bool)
-    scrollPage()
   }
 
-  function scrollPage() {
-    if (scrolling) {
-      window.clearTimeout(scrolldelay)
-      scrolldelay = -1
-      console.log("stop")
-    } else {
-      window.scrollBy(0, 1)
-      scrolldelay = setTimeout(scrollPage, speed * 10)
-      console.log("speed: ", speed)
-    }
+  function setScrollSpeed(e) {
+    setSpeed(e)
+  }
+
+  function scroll() {
+    console.log(speed)
+    window.scrollBy(0, 1)
+    scrolldelay = setTimeout(scroll, speed)
+  }
+
+  function stopScrolling() {
+    window.clearTimeout(scrolldelay)
+    scrolldelay = -1
+  }
+
+  if (scrolling) {
+    scroll()
+  } else {
+    stopScrolling()
   }
 
   return (
@@ -60,9 +43,13 @@ export default function Header() {
           <HeaderIcon />
         </Link>
         <nav id="scroll-control">
-          <IoPlayBackCircle onClick={() => speedDown()} />
-          <p>{speed}</p>
-          <IoPlayForwardCircle onClick={() => speedUp()} />
+          <Slider
+            className="speed-slider"
+            defaultValue={50}
+            reverse={true}
+            onChange={stopScrolling}
+            onAfterChange={setScrollSpeed}
+          />
           {scrolling ? (
             <IoPauseCircle onClick={() => toggleScroll(false)} />
           ) : (

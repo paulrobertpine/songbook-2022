@@ -1,8 +1,7 @@
 #site-header {
-    @include spacer;
     background-color: $clr-primary;
     position: fixed;
-    width: 100%;
+    width: 100vw;
 
     .container {
         display: flex;
@@ -13,10 +12,11 @@
             fill: $clr-accent;
         }
     
-        a {
+        a#site-logo {
             display: inline-block;
             margin: 0;
             line-height: 0;
+            padding: .5rem 1rem;
     
             svg {
                 width: 2.5rem;
@@ -29,15 +29,20 @@
             align-items: center;
             color: $clr-accent;
             font-size: 1.5rem;
+            padding: .5rem 1rem;
+            width: 75vw;
 
-            svg {
-                padding: 0 1rem 0;
-            }
+            .speed-slider {
+                margin-right: 2rem;
 
-            p {
-                width: 2rem;
-                margin: 0;
-                text-align: center;
+                .rc-slider-handle {
+                    width: 1.2rem;
+                    height: 1.2rem;
+                    margin-top: -0.5rem;
+                    opacity: 1;
+                    background-color: $clr-accent;
+                    border: 0;
+                }
             }
         }
     }
