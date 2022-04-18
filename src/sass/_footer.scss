@@ -1,5 +1,6 @@
 #site-footer {
     @include spacer; 
-    background-color: $clr-bg;
+    background-color: $clr-primary;
+    color: $clr-accent;
     text-align: right;
 }

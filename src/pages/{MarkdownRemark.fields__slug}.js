@@ -10,15 +10,15 @@ export default function Template({ data }) {
     <Layout>
       <article className="song">
         <header className="song-header">
-          <h1>{frontmatter.title}</h1>
-          <h2>{frontmatter.artist}</h2>
-          Key: {frontmatter.key}
-          <br />
-          YouTube: {frontmatter.youtube}
+          <section className="container">
+            <h1>{frontmatter.title}</h1>
+            <span>{frontmatter.artist}</span>
+            <span>Key of {frontmatter.key}</span>
+          </section>
         </header>
 
         <section
-          className="song-content"
+          className="song-content reading"
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </article>

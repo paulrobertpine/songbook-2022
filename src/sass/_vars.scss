@@ -1,15 +1,22 @@
 // typography
 @font-face {
     font-family: 'rubik';
+    font-weight: normal;
     src: url('../fonts/rubik-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'rubik';
+  font-weight: bold;
+  src: url('../fonts/rubik-bold.woff2') format('woff2');
 }
 
 $font-main: rubik, sans-serif;
 
 // colours
-$clr-primary: #1d55ab;
-$clr-accent: #c5cc00;
-$clr-bg: lighten($clr-accent, 44%);
+$clr-primary: hsl(216, 71%, 39%);
+$clr-accent: hsl(62, 100%, 40%);
+$clr-bg: hsla(62, 100%, 40%, 5%);
 
 // breakpoints
 $breakpoint-small: 420px;

@@ -1,0 +1,33 @@
+#site-main {
+
+    .song {
+       .song-header {
+           @include spacer;
+           background-color: $clr-bg;
+           border-bottom: 1px solid $clr-accent;
+           color: $clr-primary;
+           font-weight: bold;
+
+           .container {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-around;
+           }
+
+           h1 {
+               margin: 0;
+               color: $clr-accent;
+               text-shadow: .2rem .2rem 0 $clr-primary;
+               padding: 1rem;
+           }
+
+          span {
+               font-size: 1.2rem;
+               padding: 1rem;
+           }
+
+
+       }
+    }
+}

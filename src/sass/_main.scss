@@ -1,8 +1,8 @@
 #site-main {
-    @include spacer;
-    padding-top: 4rem;
+    padding-top: 3.5rem;
 
     .reading {
+        @include spacer;
         max-width: $breakpoint-med;
         margin: 0 auto;
     }
