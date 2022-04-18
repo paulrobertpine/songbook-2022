@@ -39,7 +39,7 @@ export default function Header() {
   return (
     <header id="site-header">
       <section className="container">
-        <Link to="/" id="site-logo">
+        <Link to="/" id="site-logo" onClick={stopScrolling}>
           <HeaderIcon />
         </Link>
         <nav id="scroll-control">

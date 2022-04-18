@@ -1,4 +1,5 @@
 ---
+slug: yesterdayyyyyy
 title: Yesterday
 artist: The Beatles
 key: F
