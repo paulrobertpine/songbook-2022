@@ -6,7 +6,7 @@ key: F
 youtube: NrgmdOz227I
 ---
 
-[F]Yesterday[Em7] all my trou[A7]bles seemed so f[Dm]ar away[Dm/C]
+[F]Yesterday [Em7]all my trou[A7]bles seemed so f[Dm]ar away[Dm/C]
 [Bb]Now it lo[C7]oks as though they're [F]here to stay,[F/E] oh [Dm]I bel[G7]ieve in y[Bb]est[F]er[F]day
 
 [F]Suddenly,[Em7] I'm not [A7]half the man I [Dm]used to be[Dm/C]

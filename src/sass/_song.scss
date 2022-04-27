@@ -1,33 +1,56 @@
 #site-main {
+  .song {
+    .song-header {
+      @include spacer;
+      background-color: $clr-bg;
+      border-bottom: 1px solid $clr-accent;
+      color: $clr-primary;
+      font-weight: bold;
 
-    .song {
-       .song-header {
-           @include spacer;
-           background-color: $clr-bg;
-           border-bottom: 1px solid $clr-accent;
-           color: $clr-primary;
-           font-weight: bold;
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+      }
 
-           .container {
-                display: flex;
-                flex-wrap: wrap;
-                align-items: center;
-                justify-content: space-around;
-           }
+      h1 {
+        margin: 0;
+        color: $clr-accent;
+        text-shadow: 0.2rem 0.2rem 0 $clr-primary;
+        padding: 1rem;
+      }
 
-           h1 {
-               margin: 0;
-               color: $clr-accent;
-               text-shadow: .2rem .2rem 0 $clr-primary;
-               padding: 1rem;
-           }
-
-          span {
-               font-size: 1.2rem;
-               padding: 1rem;
-           }
-
-
-       }
+      span {
+        font-size: 1.2rem;
+        padding: 1rem;
+      }
     }
+
+    .song-content {
+      .paragraph {
+        margin-bottom: 3rem;
+
+        .row {
+          display: flex;
+          flex-wrap: wrap;
+          margin-bottom: 0.5rem;
+
+          .column {
+            margin-left: 0.2rem;
+            font-size: 1.1rem;
+
+            .chord {
+              color: $clr-primary;
+              width: fit-content;
+              font-weight: 500;
+              //   background-color: lighten($clr-primary, 58%);
+              //   padding: 0 0.2rem;
+              font-size: 0.9rem;
+            }
+          }
+        }
+      }
+    }
+  }
 }

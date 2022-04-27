@@ -1,28 +1,28 @@
 :root {
-    --font-size--small: calc((14 / 16) * 1rem);
-    --font-size--medium: calc((16 / 16) * 1rem);
-    --font-size--large: calc((18 / 16) * 1rem);
+  --font-size--small: calc((14 / 16) * 1rem);
+  --font-size--medium: calc((16 / 16) * 1rem);
+  --font-size--large: calc((18 / 16) * 1rem);
 }
 
 html {
-    font-size: var(--font-size--small);
+  font-size: var(--font-size--small);
 
-    @include medium {
-        font-size: var(--font-size--medium);
-    }
+  @include medium {
+    font-size: var(--font-size--medium);
+  }
 
-    @include large {
-        font-size: var(--font-size--large);
-    }
+  @include large {
+    font-size: var(--font-size--large);
+  }
 }
 
-
 body {
-    font-family: $font-main;
-    line-height: 1.5rem;
+  font-family: $font-main;
+  font-weight: normal;
+  line-height: 1.5rem;
 }
 
 .container {
-    max-width: $breakpoint-lrg;
-    margin: 0 auto;
+  max-width: $breakpoint-lrg;
+  margin: 0 auto;
 }

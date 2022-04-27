@@ -1,14 +1,20 @@
 // typography
 @font-face {
-    font-family: 'rubik';
-    font-weight: normal;
-    src: url('../fonts/rubik-regular.woff2') format('woff2');
+  font-family: "rubik";
+  font-weight: normal;
+  src: url("../fonts/rubik-regular.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'rubik';
+  font-family: "rubik";
+  font-weight: 500;
+  src: url("../fonts/rubik-medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "rubik";
   font-weight: bold;
-  src: url('../fonts/rubik-bold.woff2') format('woff2');
+  src: url("../fonts/rubik-bold.woff2") format("woff2");
 }
 
 $font-main: rubik, sans-serif;
@@ -25,19 +31,19 @@ $breakpoint-lrg: 1200px;
 
 @mixin small {
   @media only screen and (max-width: $breakpoint-small) {
-      @content;
+    @content;
   }
 }
 
 @mixin medium {
   @media only screen and (min-width: $breakpoint-med) {
-      @content;
+    @content;
   }
 }
 
 @mixin large {
   @media only screen and (min-width: $breakpoint-lrg) {
-      @content;
+    @content;
   }
 }
 

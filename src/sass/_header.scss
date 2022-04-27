@@ -1,51 +1,49 @@
 #site-header {
-    background-color: $clr-primary;
-    position: fixed;
-    width: 100vw;
+  background-color: $clr-primary;
+  position: fixed;
+  width: 100vw;
 
-    .container {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-        svg {
-            fill: $clr-accent;
-        }
-    
-        a#site-logo {
-            display: inline-block;
-            margin: 0;
-            line-height: 0;
-            padding: .5rem 1rem;
-    
-            svg {
-                width: 2.5rem;
-                height: auto;
-            }
-        }
-
-        #scroll-control {
-            display: flex;
-            align-items: center;
-            color: $clr-accent;
-            font-size: 1.5rem;
-            padding: .5rem 1rem;
-            width: 75vw;
-
-            .speed-slider {
-                margin-right: 2rem;
-
-                .rc-slider-handle {
-                    width: 1.2rem;
-                    height: 1.2rem;
-                    margin-top: -0.5rem;
-                    opacity: 1;
-                    background-color: $clr-accent;
-                    border: 0;
-                }
-            }
-        }
+    svg {
+      fill: $clr-accent;
     }
 
+    a#site-logo {
+      display: inline-block;
+      margin: 0;
+      line-height: 0;
+      padding: 0.5rem 1rem;
 
+      svg {
+        width: 2.5rem;
+        height: auto;
+      }
+    }
+
+    #scroll-control {
+      display: flex;
+      align-items: center;
+      color: $clr-accent;
+      font-size: 1.8rem;
+      padding: 0.5rem 1rem;
+      width: 75vw;
+
+      .speed-slider {
+        margin-right: 2rem;
+
+        .rc-slider-handle {
+          width: 1.2rem;
+          height: 1.2rem;
+          margin-top: -0.5rem;
+          opacity: 1;
+          background-color: $clr-accent;
+          border: 0;
+        }
+      }
+    }
+  }
 }

@@ -12,3 +12,14 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     })
   }
 }
+
+// see https://www.gatsbyjs.com/docs/how-to/local-development/troubleshooting-common-errors/
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    resolve: {
+      fallback: {
+        fs: false,
+      },
+    },
+  })
+}
