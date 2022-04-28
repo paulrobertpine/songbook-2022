@@ -8,9 +8,7 @@ export default function Layout({ children }) {
       <Header />
       <main id="site-main">{children}</main>
       <footer id="site-footer">
-        <section className="container">
-          © Paul Clifford {new Date().getFullYear()}
-        </section>
+        <section className="container">© {new Date().getFullYear()}</section>
       </footer>
     </>
   )

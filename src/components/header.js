@@ -4,6 +4,7 @@ import HeaderIcon from "../images/musician.inline.svg"
 import { IoPlayCircle, IoPauseCircle } from "react-icons/io5"
 import Slider from "rc-slider"
 import "rc-slider/assets/index.css"
+
 let scrolldelay = -1
 const defaultSpeed = 50
 
@@ -19,22 +20,22 @@ export default function Header() {
     setSpeed(e)
   }
 
-  function scroll() {
-    console.log(speed)
-    window.scrollBy(0, 1)
-    scrolldelay = setTimeout(scroll, speed)
-  }
+  // function scroll() {
+  //   console.log(speed)
+  //   window.scrollBy(0, 1)
+  //   scrolldelay = setTimeout(scroll, speed)
+  // }
 
   function stopScrolling() {
     window.clearTimeout(scrolldelay)
     scrolldelay = -1
   }
 
-  if (scrolling) {
-    scroll()
-  } else {
-    stopScrolling()
-  }
+  // if (scrolling) {
+  //   scroll()
+  // } else {
+  //   stopScrolling()
+  // }
 
   return (
     <header id="site-header">
