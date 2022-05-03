@@ -3,10 +3,11 @@
   position: fixed;
   width: 100vw;
 
-  .container {
+  section.container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0.5rem 1rem;
 
     svg {
       fill: $clr-accent;
@@ -16,7 +17,6 @@
       display: inline-block;
       margin: 0;
       line-height: 0;
-      padding: 0.5rem 1rem;
 
       svg {
         width: 2.5rem;
@@ -24,26 +24,24 @@
       }
     }
 
-    #scroll-control {
-      display: flex;
-      align-items: center;
-      color: $clr-accent;
-      font-size: 1.8rem;
-      padding: 0.5rem 1rem;
-      width: 75vw;
-
-      .speed-slider {
-        margin-right: 2rem;
-
-        .rc-slider-handle {
-          width: 1.2rem;
-          height: 1.2rem;
-          margin-top: -0.5rem;
-          opacity: 1;
-          background-color: $clr-accent;
-          border: 0;
-        }
+    nav#scroll-control {
+      button {
+        background-color: transparent;
+        border: 0;
+        cursor: pointer;
+        display: flex;
+        font-size: 2rem;
+        align-items: center;
       }
+
+      // .rc-slider-handle {
+      //   width: 1.2rem;
+      //   height: 1.2rem;
+      //   margin-top: -0.5rem;
+      //   opacity: 1;
+      //   background-color: $clr-accent;
+      //   border: 0;
+      // }
     }
   }
 }

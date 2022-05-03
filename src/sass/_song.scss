@@ -17,13 +17,14 @@
       h1 {
         margin: 0;
         color: $clr-accent;
-        text-shadow: 0.2rem 0.2rem 0 $clr-primary;
         padding: 1rem;
+        text-shadow: 0.2rem 0.2rem 0 $clr-primary;
       }
 
       span {
         font-size: 1.2rem;
         padding: 1rem;
+        text-shadow: 0.1rem 0.1rem 0 $clr-accent;
       }
     }
 
@@ -37,15 +38,14 @@
           margin-bottom: 0.5rem;
 
           .column {
-            margin-left: 0.2rem;
-            font-size: 1.1rem;
+            margin-right: 0.2rem;
+            // font-size: 1.1rem;
 
             .chord {
               color: $clr-primary;
               width: fit-content;
-              font-weight: 500;
-              //   background-color: lighten($clr-primary, 58%);
-              //   padding: 0 0.2rem;
+              font-family: monospace;
+              font-weight: bold;
               font-size: 0.9rem;
             }
           }
