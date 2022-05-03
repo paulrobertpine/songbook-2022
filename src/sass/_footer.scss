@@ -1,6 +1,15 @@
 #site-footer {
-    @include spacer; 
-    background-color: $clr-primary;
-    color: $clr-accent;
-    text-align: right;
+  @include spacer;
+  background-color: $clr-primary;
+  color: $clr-accent;
+
+  section.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    svg {
+      fill: $clr-accent;
+    }
+  }
 }

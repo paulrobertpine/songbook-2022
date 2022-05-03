@@ -26,3 +26,23 @@ body {
   max-width: $breakpoint-lrg;
   margin: 0 auto;
 }
+
+nav.scroll-control {
+  button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+  }
+
+  // .rc-slider-handle {
+  //   width: 1.2rem;
+  //   height: 1.2rem;
+  //   margin-top: -0.5rem;
+  //   opacity: 1;
+  //   background-color: $clr-accent;
+  //   border: 0;
+  // }
+}
