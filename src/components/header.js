@@ -3,30 +3,34 @@ import Link from "gatsby-link"
 import * as Scroll from "react-scroll"
 import HeaderIcon from "../images/musician.inline.svg"
 import { IoArrowDownCircle } from "react-icons/io5"
+import useWindowDimensions from "./window-dimensions"
 
 let scroll = Scroll.animateScroll
+// const height = window.innerHeight
 
 // set duration based on slider?
 // calculate an amount to scroll based on viewport height?
 // or use slider to set amount to scroll by
 
-function scrollPage() {
-  console.log("yep")
-  scroll.scrollMore(300, {
-    duration: 1500,
+function scrollPage(vh) {
+  const buffer = 100
+  scroll.scrollMore(vh - buffer, {
+    duration: vh * 2,
     smooth: "linear",
   })
 }
 
 export default function Header() {
+  const { height } = useWindowDimensions()
+
   return (
     <header id="site-header">
       <section className="container">
         <Link to="/" id="site-logo">
           <HeaderIcon />
         </Link>
-        <nav id="scroll-control">
-          <button onClick={() => scrollPage()}>
+        <nav className="scroll-control">
+          <button onClick={() => scrollPage(height)}>
             <IoArrowDownCircle />
           </button>
         </nav>
