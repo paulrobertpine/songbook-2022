@@ -20,6 +20,7 @@
     "os": false
   },
   "dependencies": {
+    "browser-monads": "^1.0.0",
     "chordsheetjs": "^6.2.2",
     "gatsby": "^4.12.1",
     "gatsby-plugin-image": "^2.12.1",
