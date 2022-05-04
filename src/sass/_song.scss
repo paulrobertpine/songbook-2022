@@ -1,7 +1,6 @@
 #site-main {
   .song {
     .song-header {
-      @include spacer;
       background-color: $clr-bg;
       border-bottom: 1px solid $clr-accent;
       color: $clr-primary;
@@ -15,20 +14,21 @@
       }
 
       h1 {
-        margin: 0;
-        color: $clr-accent;
+        // font-size: 1.2rem;
+
         padding: 1rem;
-        text-shadow: 0.2rem 0.2rem 0 $clr-primary;
       }
 
       span {
-        font-size: 1.2rem;
         padding: 1rem;
-        // text-shadow: 0.1rem 0.1rem 0 $clr-accent;
       }
     }
 
     .song-content {
+      div {
+        margin: 0;
+      }
+
       .paragraph {
         margin-bottom: 3rem;
 

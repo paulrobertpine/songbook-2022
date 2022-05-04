@@ -9,7 +9,6 @@ import Scroller from "../components/scroller"
 export default function Song({ data }) {
   const { markdownRemark } = data
   const { frontmatter, rawMarkdownBody } = markdownRemark
-  // console.log("html: ", html)
 
   const parser = new ChordSheetJS.ChordProParser()
   const song = parser.parse(rawMarkdownBody)
@@ -17,12 +16,12 @@ export default function Song({ data }) {
   const disp = formatter.format(song)
 
   return (
-    <Layout>
+    <Layout title={frontmatter.title}>
       <article className="song">
         <header className="song-header">
           <section className="container">
+            <h1 className="fancy">{frontmatter.title}</h1>
             <span>{frontmatter.artist}</span>
-            <h1>{frontmatter.title}</h1>
             <span>Key of {frontmatter.key}</span>
           </section>
           <Scroller />
@@ -46,7 +45,6 @@ export const pageQuery = graphql`
         artist
         youtube
       }
-      html
       rawMarkdownBody
     }
   }

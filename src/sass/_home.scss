@@ -1,0 +1,53 @@
+#home {
+  header {
+    @include spacer;
+    background-color: $clr-bg;
+    color: $clr-primary;
+
+    section.container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    h1 {
+      color: $clr-accent;
+      // margin: 1rem;
+    }
+
+    span {
+      // margin: 1rem;
+    }
+  }
+
+  section.container {
+    @include spacer;
+
+    ol.song-list {
+      margin: 0;
+
+      li {
+        margin: 1rem;
+
+        &:hover {
+          background-color: $clr-bg;
+        }
+
+        a {
+          display: block;
+          text-decoration: none;
+          color: $clr-primary;
+          display: flex;
+          align-items: center;
+
+          .artist {
+            color: $clr-accent;
+            font-size: 0.8rem;
+            margin-left: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+}

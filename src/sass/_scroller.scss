@@ -1,9 +1,10 @@
 #scroller {
   position: fixed;
   bottom: 1rem;
-  right: 30vw;
+  right: 10vw;
 
   svg {
     fill: $clr-accent;
+    // fill-opacity: "0.5";
   }
 }
