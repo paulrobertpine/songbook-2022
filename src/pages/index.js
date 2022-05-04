@@ -1,5 +1,5 @@
 import * as React from "react"
-import { graphql, Link } from 'gatsby'
+import { graphql, Link } from "gatsby"
 
 import Layout from "../components/layout"
 
@@ -14,7 +14,6 @@ export default function Home({ data, location }) {
 
   return (
     <Layout title={title}>
-
       <article id="home">
         <header>
           <section className="container">
@@ -23,9 +22,9 @@ export default function Home({ data, location }) {
           </section>
         </header>
 
-        <section className="container">
-          <ol className="song-list">
-            {posts.map(post => {
+        <section className="container reading">
+          <ol className="song-list ">
+            {posts.map((post) => {
               return (
                 <li key={post.fields.slug}>
                   <Link to={post.fields.slug}>
@@ -33,29 +32,29 @@ export default function Home({ data, location }) {
                     {/* <span>&mdash;</span> */}
                     <span className="artist">{post.frontmatter.artist}</span>
                   </Link>
-                </li>)
+                </li>
+              )
             })}
           </ol>
         </section>
-
       </article>
     </Layout>
   )
 }
 
 export const query = graphql`
-query MyQuery {
-  allMarkdownRemark {
-    totalCount
-    nodes {
-      frontmatter {
-        title
-        artist
-      }
-      fields {
-        slug
+  query MyQuery {
+    allMarkdownRemark {
+      totalCount
+      nodes {
+        frontmatter {
+          title
+          artist
+        }
+        fields {
+          slug
+        }
       }
     }
   }
-}
 `
