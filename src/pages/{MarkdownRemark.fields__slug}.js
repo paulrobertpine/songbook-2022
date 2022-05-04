@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import ChordSheetJS from "chordsheetjs"
 import Layout from "../components/layout"
+import Scroller from "../components/scroller"
 // import { FiMinusCircle, FiPlusCircle, FiRefreshCw } from "react-icons/fi"
 
 // song template
@@ -24,6 +25,7 @@ export default function Song({ data }) {
             <h1>{frontmatter.title}</h1>
             <span>Key of {frontmatter.key}</span>
           </section>
+          <Scroller />
         </header>
 
         <section

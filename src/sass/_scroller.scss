@@ -1,0 +1,9 @@
+#scroller {
+  position: fixed;
+  bottom: 1rem;
+  right: 30vw;
+
+  svg {
+    fill: $clr-accent;
+  }
+}

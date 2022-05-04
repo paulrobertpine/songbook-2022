@@ -1,17 +1,13 @@
 #site-header {
   background-color: $clr-primary;
-  position: fixed;
-  width: 100vw;
+  // position: fixed;
+  // width: 100vw;
 
   section.container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem 1rem;
-
-    svg {
-      fill: $clr-accent;
-    }
 
     a#site-logo {
       display: inline-block;
@@ -21,6 +17,7 @@
       svg {
         width: 2.5rem;
         height: auto;
+        fill: $clr-accent;
       }
     }
   }

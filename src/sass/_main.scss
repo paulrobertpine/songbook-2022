@@ -1,9 +1,7 @@
 #site-main {
-    padding-top: 3.5rem;
-
-    .reading {
-        @include spacer;
-        max-width: $breakpoint-med;
-        margin: 0 auto;
-    }
+  .reading {
+    @include spacer;
+    max-width: $breakpoint-med;
+    margin: 0 auto;
+  }
 }
