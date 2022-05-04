@@ -1,23 +1,17 @@
 #home {
   header {
-    @include spacer;
     background-color: $clr-bg;
+    border-bottom: 1px solid $clr-accent;
     color: $clr-primary;
+    font-weight: bold;
+    @include spacer;
 
     section.container {
+      @include spacer;
       display: flex;
       flex-wrap: wrap;
       align-items: center;
       justify-content: space-between;
-    }
-
-    h1 {
-      color: $clr-accent;
-      // margin: 1rem;
-    }
-
-    span {
-      // margin: 1rem;
     }
   }
 
@@ -37,14 +31,25 @@
         a {
           display: block;
           text-decoration: none;
-          color: $clr-primary;
           display: flex;
           align-items: center;
+          color: $clr-primary;
+
+          .title {
+            font-weight: 500;
+          }
 
           .artist {
-            color: $clr-accent;
-            font-size: 0.8rem;
             margin-left: 0.5rem;
+            font-size: 0.8rem;
+
+            &::before {
+              content: "(";
+            }
+
+            &::after {
+              content: ")";
+            }
           }
         }
       }
