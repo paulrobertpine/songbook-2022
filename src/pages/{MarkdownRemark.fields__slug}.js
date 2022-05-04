@@ -10,10 +10,12 @@ export default function Song({ data }) {
   const { markdownRemark } = data
   const { frontmatter, rawMarkdownBody } = markdownRemark
 
+
   const parser = new ChordSheetJS.ChordProParser()
   const song = parser.parse(rawMarkdownBody)
   const formatter = new ChordSheetJS.HtmlDivFormatter()
   const disp = formatter.format(song)
+  console.log("disp:", disp)
 
   return (
     <Layout title={frontmatter.title}>

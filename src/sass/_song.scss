@@ -47,6 +47,15 @@
               font-family: "Courier New", Courier, monospace;
               font-weight: bold;
               font-size: 0.9rem;
+
+              // &:empty {
+              //   min-width: 0;
+              // }
+              &::after {
+                // this is needed so empty chords don't mess up layout
+                content: ".";
+                color: transparent;
+              }
             }
           }
         }
