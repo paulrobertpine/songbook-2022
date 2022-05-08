@@ -33,26 +33,18 @@ h1.fancy {
   margin: 0;
 }
 
-nav.scroll-control {
-  button {
-    background-color: transparent;
-    border: 0;
-    cursor: pointer;
-    display: flex;
-    font-size: 2rem;
-    align-items: center;
-  }
-
-  // .rc-slider-handle {
-  //   width: 1.2rem;
-  //   height: 1.2rem;
-  //   margin-top: -0.5rem;
-  //   opacity: 1;
-  //   background-color: $clr-accent;
-  //   border: 0;
-  // }
-}
-
 svg {
   fill: $clr-accent;
+
+  &:hover {
+    fill: lighten($clr-accent, 5%);
+  }
+}
+
+button {
+  background-color: transparent;
+  display: flex;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }

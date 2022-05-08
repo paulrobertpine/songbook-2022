@@ -10,8 +10,6 @@ export default function Home({ data, location }) {
   const { totalCount } = allMarkdownRemark
   const posts = allMarkdownRemark.nodes
 
-  // console.log("posts: ", posts)
-
   return (
     <Layout title={title}>
       <article id="home">
@@ -29,7 +27,6 @@ export default function Home({ data, location }) {
                 <li key={post.fields.slug}>
                   <Link to={post.fields.slug}>
                     <span className="title">{post.frontmatter.title}</span>
-                    {/* <span>&mdash;</span> */}
                     <span className="artist">{post.frontmatter.artist}</span>
                   </Link>
                 </li>
@@ -43,8 +40,8 @@ export default function Home({ data, location }) {
 }
 
 export const query = graphql`
-  query MyQuery {
-    allMarkdownRemark {
+  query {
+    allMarkdownRemark(sort: { order: ASC, fields: frontmatter___title }) {
       totalCount
       nodes {
         frontmatter {

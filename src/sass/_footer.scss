@@ -12,7 +12,12 @@
 
     span a {
       color: $clr-accent;
-      // text-decoration: none;
+    }
+
+    .scroll-control {
+      button {
+        font-size: 3rem;
+      }
     }
   }
 }

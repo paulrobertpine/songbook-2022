@@ -1,21 +1,47 @@
-import React from "react"
+import React, { useState } from "react"
 import { graphql } from "gatsby"
 import ChordSheetJS from "chordsheetjs"
 import Layout from "../components/layout"
 import Scroller from "../components/scroller"
-// import { FiMinusCircle, FiPlusCircle, FiRefreshCw } from "react-icons/fi"
+import { AiFillPlusCircle, AiFillMinusCircle } from "react-icons/ai"
+import { MdChangeCircle } from "react-icons/md"
 
 // song template
 export default function Song({ data }) {
   const { markdownRemark } = data
   const { frontmatter, rawMarkdownBody } = markdownRemark
-
-
   const parser = new ChordSheetJS.ChordProParser()
-  const song = parser.parse(rawMarkdownBody)
   const formatter = new ChordSheetJS.HtmlDivFormatter()
+
+  const [key, setKey] = useState(frontmatter.key)
+  const [song] = useState(parser.parse(rawMarkdownBody))
+
+  function goDown() {
+    // setKey(key.transposeDown())
+    // song.lines.forEach((line) => {
+    //   line.items.forEach((item) => {
+    //     console.log("chord ", item.chords)
+    //     let chord = ChordSheetJS.parse(item.chords)
+    //     if (chord) {
+    //       chord = chord.transposeDown()
+    //       item.chords = chord
+    //     }
+    //     console.log("new chord ", item.chords)
+    //   })
+    // })
+    // const chord = parseChord("Ebsus4/Bb")
+  }
+
+  function goUp() {
+    console.log("transpose up")
+  }
+
+  function enharmonicChange() {
+    console.log("enharmonicChange")
+  }
+
   const disp = formatter.format(song)
-  console.log("disp:", disp)
+  // console.log("disp:", disp)
 
   return (
     <Layout title={frontmatter.title}>
@@ -23,8 +49,21 @@ export default function Song({ data }) {
         <header className="song-header">
           <section className="container">
             <h1 className="fancy">{frontmatter.title}</h1>
-            <span>{frontmatter.artist}</span>
-            <span>Key of {frontmatter.key}</span>
+            <span className="artist">{frontmatter.artist}</span>
+            <span className="key">
+              <p>Key of {frontmatter.key}</p>
+              <nav className="transposer">
+                <button onClick={() => goDown()}>
+                  <AiFillMinusCircle />
+                </button>
+                <button onClick={() => goUp()}>
+                  <AiFillPlusCircle />
+                </button>
+                <button>
+                  <MdChangeCircle onClick={() => enharmonicChange()} />
+                </button>
+              </nav>
+            </span>
           </section>
           <Scroller />
         </header>
