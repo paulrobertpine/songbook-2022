@@ -5,13 +5,6 @@ key: Em
 youtube: wO0A0XcWy88
 ---
 
-e|------------------|-----------------|
-B|------------------|-----------------|
-G|------------------|-----------------|
-D|----2-0-2-----0-2-|---2-0-2---2---2-|
-A|----------0-2-----|-----------------|
-E|-0----------------|-0-------3---2---|
-
 [Em] [A]
 
 [Em]Standing there alone, the ship is waiting.
@@ -46,7 +39,7 @@ There's no re[Em]ply.
 
 [Em]Across the stratosphere, a final message:
 "[Am]Give my wife my love."[D]
-Then nothing [Em]more.[Am][D][C][Am]
+Then nothing [Em]more.[Am][d][C][am]
 [Em]Far beneath the ship, the world is mourning.
 [Am]They don't realize[D]: he's alive.
 [Em]No one understands, but Major Tom sees.
@@ -56,4 +49,4 @@ I'm coming [Em]home."
 [G]Floating [D]weightless, [Am]coming h[C]ome
 [G]Earth belo[D]w us, [Am]drifting, [C]falling.
 [G]Floating [D]weightless, [Am]coming, [C]coming
-[G]ho[D]me[Am][C]
+[G]ho[D]me[Am][c]
