@@ -1,62 +1,67 @@
-#site-main {
-  .song {
-    .song-header {
-      background-color: $clr-bg;
-      border-bottom: 1px solid $clr-accent;
-      color: $clr-primary;
-      font-weight: bold;
+.song {
+  .song-header {
+    background-color: $clr-bg;
+    border-bottom: 1px solid $clr-accent;
+    color: $clr-primary;
+    font-weight: bold;
 
-      .container {
-        @include spacer;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-      }
-
-      h1 {
-        // font-size: 1.2rem;
-
-        padding: 1rem;
-      }
-
-      span {
-        padding: 1rem;
-      }
+    .container {
+      @include spacer;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
     }
 
-    .song-content {
-      div {
+    h1 {
+      font-size: 1.2rem;
+      padding: 0.5rem;
+    }
+
+    span {
+      padding: 0.5rem;
+    }
+
+    span.key {
+      display: flex;
+      align-items: center;
+
+      p {
         margin: 0;
       }
 
-      .paragraph {
-        margin-bottom: 3rem;
+      nav.transposer {
+        display: flex;
+        button {
+          font-size: 1.5rem;
+          padding: 0 0 0 1rem;
+        }
+      }
+    }
+  }
 
-        .row {
-          display: flex;
-          flex-wrap: wrap;
-          margin-bottom: 0.5rem;
+  .song-content {
+    .paragraph {
+      margin-bottom: 2rem;
 
-          .column {
-            margin-right: 0.2rem;
-            // font-size: 1.1rem;
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 0.5rem;
 
-            .chord {
-              color: $clr-primary;
-              width: fit-content;
-              font-family: "Courier New", Courier, monospace;
-              font-weight: bold;
-              font-size: 0.9rem;
+        .column {
+          margin-right: 0.2rem;
+          font-size: 1.1rem;
 
-              // &:empty {
-              //   min-width: 0;
-              // }
-              &::after {
-                // this is needed so empty chords don't mess up layout
-                content: ".";
-                color: transparent;
-              }
+          .chord {
+            color: $clr-primary;
+            font-weight: bold;
+            font-size: 0.9rem;
+
+            &::after {
+              // this is needed so empty chords don't mess up layout
+              content: ".";
+              color: transparent;
             }
           }
         }
