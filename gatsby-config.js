@@ -42,6 +42,14 @@ module.exports = {
       __key: "cpsongs",
     },
     {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "songs",
+        path: "./songs/ultimate-guitar/",
+      },
+      __key: "ugsongs",
+    },
+    {
       resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
