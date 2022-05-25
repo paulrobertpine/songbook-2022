@@ -5,16 +5,16 @@
   src: url("../fonts/rubik-regular.woff2") format("woff2");
 }
 
-@font-face {
-  font-family: "rubik";
-  font-weight: 500;
-  src: url("../fonts/rubik-medium.woff2") format("woff2");
-}
+// @font-face {
+//   font-family: "rubik";
+//   font-weight: 500;
+//   src: url("../fonts/rubik-medium.woff2") format("woff2");
+// }
 
 @font-face {
   font-family: "rubik";
   font-weight: bold;
-  src: url("../fonts/rubik-bold.woff2") format("woff2");
+  src: url("../fonts/rubik-medium.woff2") format("woff2");
 }
 
 // @import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap");
@@ -25,7 +25,7 @@ $font-main: rubik, sans-serif;
 // colours
 $clr-primary: hsl(216, 71%, 39%);
 $clr-accent: hsl(62, 100%, 40%);
-$clr-bg: hsla(62, 100%, 40%, 5%);
+$clr-bg: hsla(62, 100%, 40%, 10%);
 
 // breakpoints
 $breakpoint-small: 420px;
