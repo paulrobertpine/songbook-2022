@@ -12,6 +12,25 @@
       flex-wrap: wrap;
       align-items: center;
       justify-content: space-between;
+
+      #song-list-control {
+        @include flex;
+
+        button {
+          margin: 0.5rem;
+        }
+      }
+
+      #filter-search {
+        margin: 2rem 0 0;
+        padding: 0.5rem;
+        width: 100%;
+
+        @include medium {
+          margin: 0;
+          width: auto;
+        }
+      }
     }
   }
 
@@ -21,6 +40,7 @@
     ol.song-list {
       margin: 0;
       padding: 0;
+      list-style: none;
 
       li {
         margin: 1rem;

@@ -54,3 +54,9 @@ $breakpoint-lrg: 1200px;
 @mixin spacer {
   padding: 1rem;
 }
+
+@mixin flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
