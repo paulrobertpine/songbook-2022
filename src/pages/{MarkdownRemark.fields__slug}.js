@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import ChordSheetJS, { Chord } from "chordsheetjs"
 import Layout from "../components/layout"
 import Scroller from "../components/scroller"
@@ -49,7 +49,9 @@ export default function Song({ data }) {
       <article className="song">
         <header className="song-header">
           <section className="container">
-            <h1 className="fancy">{frontmatter.title}</h1>
+            <h1 className="fancy">
+              <Link to="/">{frontmatter.title}</Link>
+            </h1>
             <span className="artist">{frontmatter.artist}</span>
             <span className="key">
               <p>Key of {key}</p>
