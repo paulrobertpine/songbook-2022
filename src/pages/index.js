@@ -5,23 +5,38 @@ import { MdChangeCircle } from "react-icons/md"
 import Layout from "../components/layout"
 const title = "Songbook"
 
-export default function Home({ data }) {
-  const [search, setSearch] = useState("")
-  const { allMarkdownRemark } = data
-  const { totalCount } = allMarkdownRemark
-  const posts = allMarkdownRemark.nodes
+function shuffle(array) {
+  let currentIndex = array.length,
+    randomIndex
+  while (currentIndex !== 0) {
+    randomIndex = Math.floor(Math.random() * currentIndex)
+    currentIndex--
+    ;[array[currentIndex], array[randomIndex]] = [
+      array[randomIndex],
+      array[currentIndex],
+    ]
+  }
 
-  let filteredSongs = posts.filter(post => {
+  return array
+}
+
+export default function Home({ data }) {
+  const { allMarkdownRemark } = data
+  const posts = allMarkdownRemark.nodes
+  const [search, setSearch] = useState("")
+  const [shuffled, setShuffled] = useState(0)
+
+  let filteredSongs = posts.filter((post) => {
     return (
-      post.frontmatter.title
-        .toLowerCase()
-        .indexOf(search.toLowerCase()) !== -1
-      ||
-      post.frontmatter.artist
-        .toLowerCase()
-        .indexOf(search.toLowerCase()) !== -1
+      post.frontmatter.title.toLowerCase().indexOf(search.toLowerCase()) !==
+        -1 ||
+      post.frontmatter.artist.toLowerCase().indexOf(search.toLowerCase()) !== -1
     )
   })
+
+  if (shuffled > 0) {
+    shuffle(filteredSongs)
+  }
 
   function showSongs(songs) {
     if (songs.length > 0) {
@@ -39,11 +54,8 @@ export default function Home({ data }) {
           })}
         </ol>
       )
-    }
-    else {
-      return (
-        <p>No songs found</p>
-      )
+    } else {
+      return <p>No songs found</p>
     }
   }
 
@@ -57,23 +69,20 @@ export default function Home({ data }) {
         <header>
           <section className="container">
             <h1 className="fancy">{title}</h1>
-            <span>{totalCount} Songs</span>
+            <span id="song-list-control">
+              {filteredSongs.length} Songs
+              <button onClick={() => setShuffled(shuffled + 1)}>
+                <MdChangeCircle />
+              </button>
+            </span>
 
-            <form>
-              {/* <MdChangeCircle /> */}
-              <input
-                type="text"
-                id="filter-search"
-                placeholder="title or artist &#x1F50D;"
-                value={search}
-                onChange={(e) => searchSongs(e.target.value)}
-              />
-              {/* <button value="X" onClick={() => setSearch("")}>X</button> */}
-
-            </form>
-
-
-
+            <input
+              type="text"
+              id="filter-search"
+              placeholder="&#x1F50D; title or artist"
+              value={search}
+              onChange={(e) => searchSongs(e.target.value)}
+            />
           </section>
         </header>
 
@@ -88,7 +97,6 @@ export default function Home({ data }) {
 export const query = graphql`
   query {
     allMarkdownRemark(sort: { order: ASC, fields: frontmatter___title }) {
-      totalCount
       nodes {
         frontmatter {
           title
