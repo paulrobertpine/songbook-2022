@@ -1,47 +1,48 @@
 import React, { useState } from "react"
 import { graphql } from "gatsby"
-import ChordSheetJS from "chordsheetjs"
+import ChordSheetJS, { Chord } from "chordsheetjs"
 import Layout from "../components/layout"
 import Scroller from "../components/scroller"
 import { AiFillPlusCircle, AiFillMinusCircle } from "react-icons/ai"
 import { MdChangeCircle } from "react-icons/md"
 
-// song template
 export default function Song({ data }) {
   const { markdownRemark } = data
   const { frontmatter, rawMarkdownBody } = markdownRemark
-  const parser = new ChordSheetJS.ChordProParser()
-  const formatter = new ChordSheetJS.HtmlDivFormatter()
-
   const [key, setKey] = useState(frontmatter.key)
-  const [song] = useState(parser.parse(rawMarkdownBody))
+
+  const parser = new ChordSheetJS.ChordProParser()
+  const song = parser.parse(rawMarkdownBody)
+  const formatter = new ChordSheetJS.HtmlDivFormatter()
+  const disp = formatter.format(song)
 
   function goDown() {
-    // setKey(key.transposeDown())
-    // song.lines.forEach((line) => {
-    //   line.items.forEach((item) => {
-    //     console.log("chord ", item.chords)
-    //     let chord = ChordSheetJS.parse(item.chords)
-    //     if (chord) {
-    //       chord = chord.transposeDown()
-    //       item.chords = chord
-    //     }
-    //     console.log("new chord ", item.chords)
-    //   })
-    // })
-    // const chord = parseChord("Ebsus4/Bb")
+    const chord = Chord.parse(key)
+    const newChord = chord.transposeDown()
+    setKey(newChord.toString())
   }
 
   function goUp() {
-    console.log("transpose up")
+    const chord = Chord.parse(key)
+    const newChord = chord.transposeUp()
+    setKey(newChord.toString())
   }
 
   function enharmonicChange() {
-    console.log("enharmonicChange")
-  }
+    const chord = Chord.parse(key)
+    const modifier = chord.root.modifier
+    let newChord = chord
 
-  const disp = formatter.format(song)
-  // console.log("disp:", disp)
+    if (modifier) {
+      if (modifier === "#") {
+        newChord = chord.useModifier("b")
+      } else {
+        newChord = chord.useModifier("#")
+      }
+    }
+
+    setKey(newChord.toString())
+  }
 
   return (
     <Layout title={frontmatter.title}>
@@ -51,7 +52,7 @@ export default function Song({ data }) {
             <h1 className="fancy">{frontmatter.title}</h1>
             <span className="artist">{frontmatter.artist}</span>
             <span className="key">
-              <p>Key of {frontmatter.key}</p>
+              <p>Key of {key}</p>
               <nav className="transposer">
                 <button onClick={() => goDown()}>
                   <AiFillMinusCircle />
