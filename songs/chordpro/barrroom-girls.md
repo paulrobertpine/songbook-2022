@@ -4,6 +4,7 @@ artist: Gillian Welch
 key: G
 youtube: Igcw2nnN4Qk
 ---
+
 Well the n[G]ight came undone like a party dress
 And fell at her feet in a b[D]eautiful mess
 The sm[G]oke and whisky came home in her cu[C]rls

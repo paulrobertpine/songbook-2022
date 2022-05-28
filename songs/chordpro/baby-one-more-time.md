@@ -4,6 +4,7 @@ artist: Britney Spears
 key: Am
 youtube: 91Niv2q4gvc
 ---
+
 [Am]Oh baby, baby, how [E]was I supposed to [C]know
 That [Dm]something wasn't [E]right here
 [Am]Oh baby, baby, I [E]shouldn't have let you [C]go

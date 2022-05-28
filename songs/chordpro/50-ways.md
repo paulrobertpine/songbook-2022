@@ -2,8 +2,8 @@
 title: 50 Ways
 artist: Paul Simon
 key: Em
-
 ---
+
 [Em]"The problem is [D]all inside your[Cmaj7] head", she said to [B7]me,
 [Em7]The answer is ea[D]sy if you [Cmaj7]take it logic[Ebdim]ally.
 [Em7]I'd like to h[D]elp you in your s[Cmaj7]truggle to be f[B7]ree.
@@ -35,7 +35,7 @@ And I bel[Em]ieve that in the m[D]orning you'll [Cmaj7]begin to see the [Ebdim]l
 
 Then she k[Em]issed me and I r[D]ealised, she p[Cmaj7]robably was r[B7]ight,
 There must be[Em] fifty w[Am7]ays to leave your l[Em]over,
-[Em]   Fifty w[Am7]ays to leave your l[Em]over.
+[Em] Fifty w[Am7]ays to leave your l[Em]over.
 
 Just slip out the b[G]ack Jack, make a new p[Bb]lan Stan,
 You don't need to be [C7]coy Roy, and get yourself fr[G]ee.

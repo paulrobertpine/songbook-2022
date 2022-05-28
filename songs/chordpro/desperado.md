@@ -9,7 +9,7 @@ You been [G]out [G/F]ridin' f[Em]ences for [A7]so long [D7]now.
 Oh, you're a [G]hard one,[G7]
 But I know that [C]you've got your r[Cm]easons.
 These [G]things that[G/F#] are ple[Em]asin' you,
-Can [A7]hurt you [D7]somehow.[G][D/F#]
+Can [A7]hurt you [D7]somehow.[G][d/f#]
 
 Don't you [Em]draw the queen of [Bm]diamonds, boy,
 She'll [C]beat you if she's [G]able.[G/F#]
@@ -38,5 +38,5 @@ It may be [G]rainin'[G7], but there's a [C]rainbow ab[Cm]ove you,
 You better [G]let some[G/F#]body lo[Em]ve you,
 You better [C]let some[G/B]body [A7]love you,
 You better [G]let some[B7]body [Em]love you,
-[C]        [D7]        [G]
+[C] [D7] [G]
 Before it's too late.

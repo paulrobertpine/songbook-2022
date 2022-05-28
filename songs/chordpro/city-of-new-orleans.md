@@ -4,6 +4,7 @@ artist: Steve Goodman
 key: C
 youtube: 2SfPyg-mGhU
 ---
+
 [C]Riding on the [G]city of New [C]Orleans
 [Am]Illinois Central [F]Monday morning [C]rail[G]
 There are [C]fifteen cars and [G]fifteen restless [C]riders

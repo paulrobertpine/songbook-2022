@@ -4,6 +4,7 @@ artist: Radiohead
 key: G
 youtube: XFkzRNyygfk
 ---
+
 | [G]/ / / / | / / / / | [B]/ / / / | / / / / |
 | [C]/ / / / | / / / / | [Cm]/ / / / | / / / / |
 

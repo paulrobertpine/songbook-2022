@@ -5,6 +5,7 @@ key: G
 
 youtube: FTQbiNvZqaY
 ---
+
 | [F]/ / / [Am]/ | / / / / | (x4)
 
 [G]I hear the drums [Bm]echoing to-[Em]night
