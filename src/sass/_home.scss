@@ -13,16 +13,22 @@
       align-items: center;
       justify-content: space-between;
 
+      h1 {
+        padding: 0.5rem;
+      }
+
       #song-list-control {
         @include flex;
+        padding: 0.5rem;
 
         button {
+          font-size: 2rem;
           margin: 0.5rem;
         }
       }
 
       #filter-search {
-        margin: 2rem 0 0;
+        margin: 1rem 0 0;
         padding: 0.5rem;
         width: 100%;
 
