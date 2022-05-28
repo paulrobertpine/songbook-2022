@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { graphql, Link } from "gatsby"
-import ChordSheetJS, { Chord } from "chordsheetjs"
+import ChordSheetJS, { Chord, ChordLyricsPair } from "chordsheetjs"
 import Layout from "../components/layout"
 import Scroller from "../components/scroller"
 import { AiFillPlusCircle, AiFillMinusCircle } from "react-icons/ai"
@@ -9,39 +9,79 @@ import { MdChangeCircle } from "react-icons/md"
 export default function Song({ data }) {
   const { markdownRemark } = data
   const { frontmatter, rawMarkdownBody } = markdownRemark
-  const [key, setKey] = useState(frontmatter.key)
-
-  const parser = new ChordSheetJS.ChordProParser()
-  const song = parser.parse(rawMarkdownBody)
+  const [key, setKey] = useState(Chord.parse(frontmatter.key))
+  const [song] = useState(
+    new ChordSheetJS.ChordProParser().parse(rawMarkdownBody)
+  )
   const formatter = new ChordSheetJS.HtmlDivFormatter()
   const disp = formatter.format(song)
 
+  // console.log("song: ", song)
+  // console.log("song methods: ", getMethods(song))
+  // song.setKey("A")
+
   function goDown() {
-    const chord = Chord.parse(key)
-    const newChord = chord.transposeDown()
-    setKey(newChord.toString())
+    setKey(key.transposeDown())
+
+    song.mapItems((item) => {
+      if (item instanceof ChordLyricsPair) {
+        const chord = Chord.parse(item.chords)
+
+        if (chord) {
+          item.chords = chord.transposeDown().toString()
+        }
+
+        return item
+      }
+
+      return item
+    })
   }
 
   function goUp() {
-    const chord = Chord.parse(key)
-    const newChord = chord.transposeUp()
-    setKey(newChord.toString())
+    setKey(key.transposeUp())
+
+    song.mapItems((item) => {
+      if (item instanceof ChordLyricsPair) {
+        const chord = Chord.parse(item.chords)
+
+        if (chord) {
+          item.chords = chord.transposeUp().toString()
+        }
+
+        return item
+      }
+
+      return item
+    })
   }
 
   function enharmonicChange() {
-    const chord = Chord.parse(key)
-    const modifier = chord.root.modifier
-    let newChord = chord
-
+    let modifier = key.root.modifier
+    let newModifier = ""
     if (modifier) {
       if (modifier === "#") {
-        newChord = chord.useModifier("b")
+        newModifier = "b"
       } else {
-        newChord = chord.useModifier("#")
+        newModifier = "#"
       }
     }
 
-    setKey(newChord.toString())
+    setKey(key.useModifier(newModifier))
+
+    song.mapItems((item) => {
+      if (item instanceof ChordLyricsPair) {
+        const chord = Chord.parse(item.chords)
+
+        if (chord) {
+          item.chords = chord.useModifier(newModifier).toString()
+        }
+
+        return item
+      }
+
+      return item
+    })
   }
 
   return (
@@ -54,7 +94,7 @@ export default function Song({ data }) {
             </h1>
             <span className="artist">{frontmatter.artist}</span>
             <span className="key">
-              <p>Key of {key}</p>
+              <p>Key of {key.toString()}</p>
               <nav className="transposer">
                 <button onClick={() => goDown()}>
                   <AiFillMinusCircle />
