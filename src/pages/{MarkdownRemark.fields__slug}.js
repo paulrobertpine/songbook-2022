@@ -89,14 +89,32 @@ export default function Song({ data }) {
           className="song-content reading"
           dangerouslySetInnerHTML={{ __html: disp }}
         />
+        <YouTube video={frontmatter.youtube} />
       </article>
     </Layout>
   )
 }
 
-// Song.defaultProps = {
-//   key: "A",
-// }
+function YouTube({ video }) {
+  if (video) {
+    const embedURL = "https://www.youtube.com/embed/" + video
+    return (
+      <div className="youtube">
+        <iframe
+          title="YouTube"
+          width="700"
+          height="350"
+          src={embedURL}
+          frameBorder="0"
+          allow="autoplay; encrypted-media"
+          allowFullScreen
+        />
+      </div>
+    )
+  } else {
+    return ""
+  }
+}
 
 export const pageQuery = graphql`
   query ($id: String!) {

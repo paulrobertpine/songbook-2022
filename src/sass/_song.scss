@@ -76,4 +76,11 @@
       }
     }
   }
+
+  .youtube {
+    border-top: 1px solid $clr-accent;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+  }
 }
