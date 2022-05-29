@@ -4,12 +4,17 @@ import ChordSheetJS, { Chord, ChordLyricsPair } from "chordsheetjs"
 import Layout from "../components/layout"
 import Scroller from "../components/scroller"
 import { AiFillPlusCircle, AiFillMinusCircle } from "react-icons/ai"
-import { MdChangeCircle } from "react-icons/md"
 
 export default function Song({ data }) {
   const { markdownRemark } = data
   const { frontmatter, rawMarkdownBody } = markdownRemark
-  const [key, setKey] = useState(Chord.parse(frontmatter.key))
+
+  let keyExists = frontmatter.key
+  if (!keyExists) {
+    keyExists = "A"
+  }
+
+  const [key, setKey] = useState(Chord.parse(keyExists)) // prevent default
   const [song] = useState(
     new ChordSheetJS.ChordProParser().parse(rawMarkdownBody)
   )
@@ -56,34 +61,6 @@ export default function Song({ data }) {
     })
   }
 
-  function enharmonicChange() {
-    let modifier = key.root.modifier
-    let newModifier = ""
-    if (modifier) {
-      if (modifier === "#") {
-        newModifier = "b"
-      } else {
-        newModifier = "#"
-      }
-    }
-
-    setKey(key.useModifier(newModifier))
-
-    song.mapItems((item) => {
-      if (item instanceof ChordLyricsPair) {
-        const chord = Chord.parse(item.chords)
-
-        if (chord) {
-          item.chords = chord.useModifier(newModifier).toString()
-        }
-
-        return item
-      }
-
-      return item
-    })
-  }
-
   return (
     <Layout title={frontmatter.title}>
       <article className="song">
@@ -102,9 +79,6 @@ export default function Song({ data }) {
                 <button onClick={() => goUp()}>
                   <AiFillPlusCircle />
                 </button>
-                <button>
-                  <MdChangeCircle onClick={() => enharmonicChange()} />
-                </button>
               </nav>
             </span>
           </section>
@@ -119,6 +93,10 @@ export default function Song({ data }) {
     </Layout>
   )
 }
+
+// Song.defaultProps = {
+//   key: "A",
+// }
 
 export const pageQuery = graphql`
   query ($id: String!) {
