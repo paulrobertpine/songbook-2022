@@ -1,9 +1,10 @@
 ---
 title: One Little Song
 artist: Gillian Welch
-key: A (G capo 2)
+key: A
 youtube: UbnZMbes0vE
 ---
+
 | [G]/ / [Gsus]/ / |
 
 There's [G]gotta be a [Gsus]song left to [G]sing

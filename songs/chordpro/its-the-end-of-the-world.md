@@ -1,5 +1,5 @@
 ---
-title: It's the End of the World as We Know it and I Feel Fine
+title: It's the End of the World as We Know It
 artist: REM
 key: G
 youtube: Z0GFRcFm-aY
@@ -16,7 +16,7 @@ in a [Am]government for hire and a combat site.
 
 [G]Left of west and coming in a hurry with the furies breathing do[Cmaj7]wn your neck.
 [G]Team by team reporters baffled, trump, tethered, cropped.
-Look at that [Cmaj7]low plane!  Fine then.
+Look at that [Cmaj7]low plane! Fine then.
 [G]Uh oh, overflow, population, common group, but i[Cmaj7]t'll do.
 
 Save yourself, serve yourself.
@@ -28,20 +28,20 @@ It's the [G]end of the[Dsus2] world as[Am]we know it
 It's the [G]end of the[Dsus2] world as [Am]we know it
 It's the [G]end of the[Dsus2] world as [Am]we know it and I feel fine[C]
 
-[G]Six o'clock - TV hour.  Don't get caught in foreign tower.
+[G]Six o'clock - TV hour. Don't get caught in foreign tower.
 Slash [Cmaj7]and burn, return, listen to yourself churn.
 [G]Lock him in uniform, book burning, blood letting.
-Every [Cmaj7]motive escalate.  Automotive incinerate.
-[G]Light a candle, light a votive.  Step down, step down.
+Every [Cmaj7]motive escalate. Automotive incinerate.
+[G]Light a candle, light a votive. Step down, step down.
 Watch a h[Cmaj7]eel crush, crush.
-Uh oh, this means [G]no fear - cavalier.  Renegade and steering clear!
+Uh oh, this means [G]no fear - cavalier. Renegade and steering clear!
 [Cmaj7]A tournament, a tournament, a tournament of lies.
 [Bb]Offer me solutions, offer me alternatives and I[Am]decline.
 
 It's the [G]end of the[Dsus2] world as[Am]we know it
 It's the [G]end of the[Dsus2] world as [Am]we know it
-It's the [G]end of the[Dsus2] world as [Am]we know it and I feel fine[C][Cmaj7]
-[G]    I feel[Cmaj7] fine[G][Cmaj7][G][F]
+It's the [G]end of the[Dsus2] world as [Am]we know it and I feel fine[C][cmaj7]
+[G] I feel[Cmaj7] fine[G][cmaj7][G][f]
 
 It's the [G]end of the[Dsus2] world as[Am]we know it
 It's the [G]end of the[Dsus2] world as [Am]we know it
@@ -51,7 +51,7 @@ It's the [G]end of the[Dsus2] world as [Am]we know it and I feel fine[C]
 Mounta[Cmaj7]ins sit in a line, [N.C.]Leonard Bernstein.
 [G]Leonid Breshnev, Lenny Bruce and Lester Bangs.
 [Cmaj7]Birthday party, cheesecake, jelly bean, boom!
-You [Bb]symbiotic, patriotic, slam, but neck, [Am]right?  Right.
+You [Bb]symbiotic, patriotic, slam, but neck, [Am]right? Right.
 
 It's the [G]end of the[Dsus2] world as[Am]we know it
 It's the [G]end of the[Dsus2] world as [Am]we know it

@@ -1,11 +1,13 @@
 ---
 title: "Jack of Diamonds"
 artist: "Traditional"
+key: A
 ---
 
 3/4
-|A  |D  |A  |A  |
-|A  |D  |E  |A  |
+
+|[A]////|[D]////|[A]////|[A]////|
+|[A]////|[D]////|[E]////|[A]////|
 
 I've played cards in England
 I've gambled in Spain
@@ -53,5 +55,3 @@ I'll play these drunkard's hiccups
 And trust to my luck
 
 chorus
-
-
