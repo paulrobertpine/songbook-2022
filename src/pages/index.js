@@ -1,7 +1,6 @@
 import React, { useState } from "react"
 import { graphql, Link } from "gatsby"
-import { MdChangeCircle } from "react-icons/md"
-
+import { MdChangeCircle, MdClear } from "react-icons/md"
 import Layout from "../components/layout"
 const title = "Songbook"
 
@@ -76,13 +75,17 @@ export default function Home({ data }) {
               </button>
             </span>
 
-            <input
-              type="text"
-              id="filter-search"
-              placeholder="&#x1F50D; title or artist"
-              value={search}
-              onChange={(e) => searchSongs(e.target.value)}
-            />
+            <span id="filter-search">
+              <input
+                type="text"
+                placeholder="title or artist"
+                value={search}
+                onChange={(e) => searchSongs(e.target.value)}
+              />
+              <button onClick={() => setSearch("")}>
+                {search && <MdClear />}
+              </button>
+            </span>
           </section>
         </header>
 

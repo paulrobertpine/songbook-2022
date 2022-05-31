@@ -28,9 +28,29 @@
       }
 
       #filter-search {
+        background-color: white;
+        @include flex;
         margin: 1rem 0 0;
-        padding: 0.5rem;
+        padding: 0 0.5rem;
         width: 100%;
+        border: 1px solid $clr-primary;
+
+        input {
+          border: 0;
+          margin-right: 0.5rem;
+          padding: 0.5rem 0;
+          flex-grow: 1;
+
+          &:focus-visible {
+            outline: none;
+          }
+        }
+
+        button {
+          width: 1.5rem;
+          font-size: 1.5rem;
+          // background-color: $clr-primary;
+        }
 
         @include medium {
           margin: 0;
