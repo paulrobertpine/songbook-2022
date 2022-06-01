@@ -8,22 +8,24 @@ import { AiFillPlusCircle, AiFillMinusCircle } from "react-icons/ai"
 export default function Song({ data }) {
   const { markdownRemark } = data
   const { frontmatter, rawMarkdownBody } = markdownRemark
+  let parser
 
   let keyExists = frontmatter.key
   if (!keyExists) {
     keyExists = "A"
   }
 
-  const [key, setKey] = useState(Chord.parse(keyExists)) // prevent default
-  const [song] = useState(
-    new ChordSheetJS.ChordProParser().parse(rawMarkdownBody)
-  )
+  if (frontmatter.format === "cp") {
+    parser = new ChordSheetJS.ChordProParser()
+  }
+  else {
+    parser = new ChordSheetJS.UltimateGuitarParser()
+  }
+
+  const [key, setKey] = useState(Chord.parse(keyExists))
+  const [song] = useState(parser.parse(rawMarkdownBody))
   const formatter = new ChordSheetJS.HtmlDivFormatter()
   const disp = formatter.format(song)
-
-  // console.log("song: ", song)
-  // console.log("song methods: ", getMethods(song))
-  // song.setKey("A")
 
   function goDown() {
     setKey(key.transposeDown())
@@ -124,6 +126,7 @@ export const pageQuery = graphql`
         key
         artist
         youtube
+        format
       }
       rawMarkdownBody
     }
