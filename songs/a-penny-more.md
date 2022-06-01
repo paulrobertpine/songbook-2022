@@ -3,6 +3,7 @@ title: A Penny More
 artist: Skydiggers
 key: Em
 youtube: GzGJZxDfMgI
+format: cp
 ---
 
 [Em]I will not [G]give you a penny [Am]more than you de[C]serve

@@ -1,9 +1,11 @@
 ---
-title: 'Add it Up '
+title: "Add it Up "
 artist: Violent Femmes
 key: B
 youtube: QHapDS2fcFE
+format: cp
 ---
+
 (A cappella)
 Day after day
 I will walk and I will play

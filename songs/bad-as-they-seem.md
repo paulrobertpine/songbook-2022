@@ -3,6 +3,7 @@ title: Bad As They Seem
 artist: Hayden
 key: Am
 youtube: BzQY7yRDil0
+format: cp
 ---
 
 [Am]Girl [F]of my dr[C]eams

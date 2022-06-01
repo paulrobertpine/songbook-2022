@@ -3,6 +3,7 @@ title: And If Venice is Sinking
 artist: Spirit of the West
 key: C
 youtube: 3tepxOAEBIE
+format: cp
 ---
 
 [C]Jesus hangs behind the glass
@@ -33,7 +34,6 @@ And it's [C]christened me with [G]wonder
 
 [F] - [G] - [F] - [Am] - [G] - [C]
 
-
 We made love on a bed
 That sagged down to the floor
 In a room that had a postcard on the door
@@ -41,7 +41,6 @@ In a room that had a postcard on the door
 Of Marini's Little Man
 With an erection on a horse
 It always leaves me laughing, leaves me feeling that, of course
-
 
 I[F]f Venice is sinking
 [C]I'm going [G]under

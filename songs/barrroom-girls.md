@@ -3,6 +3,10 @@ title: Barroom Girls
 artist: Gillian Welch
 key: G
 youtube: Igcw2nnN4Qk
+<<<<<<< HEAD:songs/barrroom-girls.md
+format: cp
+=======
+>>>>>>> 6cc61b3dd746600c5c9f76114e2079e164e7b974:songs/chordpro/barrroom-girls.md
 ---
 
 Well the n[G]ight came undone like a party dress

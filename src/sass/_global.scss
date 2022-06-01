@@ -31,6 +31,11 @@ h1.fancy {
   color: $clr-accent;
   text-shadow: 0.1rem 0.1rem 0 $clr-primary;
   margin: 0;
+
+  a {
+    text-decoration: none;
+    color: $clr-accent;
+  }
 }
 
 svg {

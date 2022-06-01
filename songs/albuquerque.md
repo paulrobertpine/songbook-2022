@@ -2,9 +2,10 @@
 title: Albuquerque
 artist: Neil Young
 key: Em
-
 youtube: GwnFCri0zD0
+format: cp
 ---
+
 Well they [Em]say that Santa [D]Fe
 is less than ninety miles [D]away
 and I've got [Em]time to roll a [G]number and rent a [A]car

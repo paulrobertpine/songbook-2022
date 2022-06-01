@@ -3,7 +3,9 @@ artist: Sinead O'Connor
 title: Black Boys on Mopeds
 key: G
 youtube: n14lwdpYkAA
+format: cp
 ---
+
 [G]Margaret That[D]cher on T[C]V
 Shocked by the [G]deaths that took [D]place in Bei[C]jing
 Seems [G]strange that she [D]should be of[C]fended

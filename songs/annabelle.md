@@ -3,6 +3,7 @@ artist: Gillian Welch
 title: Annabelle
 key:
 youtube: mb7fm6YCAI4
+format: cp
 ---
 
 [Am]We lease twenty acres and [F]one Ginny mule
@@ -11,7 +12,7 @@ youtube: mb7fm6YCAI4
 [E7]We get a handful of [Am]dust
 
 We c[F]annot have all things to [C]please us, no [G]matter how we [Am]try
-Until we've [F]all gone to [C]Jesus, we can o[G]nly wonder w[Am]hy[F][G][Am]
+Until we've [F]all gone to [C]Jesus, we can o[G]nly wonder w[Am]hy[F][g][Am]
 
 [Am]I had a daughter [F]called her Annabelle
 [E7]She's the apple of my [Am]eye
@@ -21,8 +22,8 @@ Until we've [F]all gone to [C]Jesus, we can o[G]nly wonder w[Am]hy[F][G][Am]
 We c[F]annot have all things to [C]please us, no [G]matter how we [Am]try
 Until we've [F]all gone to [C]Jesus, we can o[G]nly wonder w[Am]hy
 
-[F]     [C]    [G]    [Am]
-[F]     [C]    [G]    [Am]  [F]  [G]  [Am]
+[F] [C] [G] [Am]
+[F] [C] [G] [Am] [F] [G] [Am]
 
 [Am]When I'm dead and buried I'll take a [F]hard life of tears
 [E7]From every day I've ever [Am]known
@@ -32,5 +33,5 @@ Until we've [F]all gone to [C]Jesus, we can o[G]nly wonder w[Am]hy
 We c[F]annot have all things to [C]please us, no [G]matter how we [Am]try
 Until we've [F]all gone to [C]Jesus, we can o[G]nly wonder w[Am]hy
 
-[F]     [C]    [G]    [Am]
-[F]     [C]    [G]    [Am]  [F]  [G]  [Am]
+[F] [C] [G] [Am]
+[F] [C] [G] [Am] [F] [G] [Am]

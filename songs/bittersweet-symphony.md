@@ -3,7 +3,9 @@ title: Bittersweet Symphony
 artist: The Verve
 key: E
 youtube: 1lyu1KKwC74
+format: cp
 ---
+
 | [E]/ / [Bm7] / / | [Asus]/ / [A]/ / |
 
 Cause it's a bittersweet symphony this life

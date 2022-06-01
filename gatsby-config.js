@@ -37,17 +37,9 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "songs",
-        path: "./songs/chordpro/",
+        path: "./songs/",
       },
-      __key: "cpsongs",
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "songs",
-        path: "./songs/ultimate-guitar/",
-      },
-      __key: "ugsongs",
+      __key: "songs",
     },
     {
       resolve: "gatsby-plugin-react-svg",

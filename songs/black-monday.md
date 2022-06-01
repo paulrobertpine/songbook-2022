@@ -3,11 +3,11 @@ title: Black Monday
 artist: Lowest of the Low
 key: C
 youtube: hQXdmN7YjLA
+format: cp
 ---
-capo 3
 
-[C] [Am] [Am]  [C] [Am] [Am]  [Dm] [C] [G] [G]  [Dm] [C] [G]  [G] 
-[C] [Am] [Am]  [C] [Am] [Am]  [Dm] [C] [G] [G]  [Dm] [C] [G]  [G] 
+[C] [Am] [Am] [C] [Am] [Am] [Dm] [C] [G] [G] [Dm] [C] [G] [G]
+[C] [Am] [Am] [C] [Am] [Am] [Dm] [C] [G] [G] [Dm] [C] [G] [G]
 
 [C]Black [G]Mon[F]day is [Am]coming [G]around again
 And it [C]feels [G]like a [F]friend that [Am]just won't [G]take a hint
@@ -41,7 +41,7 @@ If she can't [Dm]depend on me when Black Monday [G]starts coming aro[C]und
 [Am] [G] [F] [C]
 [Am] [G] [F] [C]
 [Am] [G] [F] [C]
-[Am] [G][F][C]   [G]
+[Am] [G][f][C] [G]
 
 [C]My [G]friend [F]Kate, you are [Am]sad and [G]beautiful
 And the [C]way [G]I [F]am has never [Am]been too [G]good for us
@@ -63,13 +63,13 @@ Yeah...
 [Dm]Do you [G]know, you can [F]count on [C]me, [F]count on [C]me?
 [Dm]Laugh out [G]loud, I see [F]what you [C]see, [F]what you [C]see
 
-[Dm]Na     [G]na, na na     [F]na na [C]na,     [F]na na [C]na
-[Dm]Na     [G]na, na na     [F]na na [C]na,     [F]na na [C]na
-[Dm]Na     [G]na, na na     [F]na na [C]na,     [F]na na [C]na
-[Dm]Na     [G]na, na na     [F]na na [C]na,     [F]na na [C]na
+[Dm]Na [G]na, na na [F]na na [C]na, [F]na na [C]na
+[Dm]Na [G]na, na na [F]na na [C]na, [F]na na [C]na
+[Dm]Na [G]na, na na [F]na na [C]na, [F]na na [C]na
+[Dm]Na [G]na, na na [F]na na [C]na, [F]na na [C]na
 
 [Dm] [G] [F] [C] [F] [C]
 [Dm] [G] [F] [C] [F] [C]
 [Dm] [G] [F] [C] [F] [C]
-[Dm] [G] [F] [C] [F] [C] [F] [C] [F] [C] 
+[Dm] [G] [F] [C] [F] [C] [F] [C] [F] [C]
 [Dm] [G] [F] [C] [F] [C]
