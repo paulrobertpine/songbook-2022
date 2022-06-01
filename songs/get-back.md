@@ -2,6 +2,7 @@
 title: Get Back
 artist: The Beatles
 key: A
+format: cp
 ---
 
 [A][g][D]

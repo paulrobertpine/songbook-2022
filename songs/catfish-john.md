@@ -2,7 +2,9 @@
 title: Catfish John
 artist: Bob McDill & Allen Reynolds
 key: D
+format: cp
 ---
+
 Intro
 | [G]/ / / / | [D]/ / / / | [G]/ / / / | [D]/ / / / |
 | [G]/ / / / | [D]/ / / / | [D]/ / [A]/ / | [D]/ / / / |

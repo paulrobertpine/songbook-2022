@@ -2,6 +2,7 @@
 title: Girl
 artist: The Beatles
 key: Em
+format: cp
 ---
 
 is ther[Em]e anybody [B7]going to listen to[Em] my [Em7]story

@@ -3,6 +3,7 @@ title: Folsom Prison Blues
 artist: Johnny Cash
 key: E
 youtube: bDktBZzQIiU
+format: cp
 ---
 
 | [E]/ / / / | / / / / | / / / / | [E7]/ / / / |

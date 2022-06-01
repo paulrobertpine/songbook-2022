@@ -3,6 +3,7 @@ title: Sittin On The Dock Of The Bay
 artist: Otis Redding
 key: G
 youtube: rTVjnBo96Ug
+format: cp
 ---
 
 [G]Sittin' in the morning [B]sun

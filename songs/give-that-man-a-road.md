@@ -3,12 +3,13 @@ title: Give That Man a Road
 artist: Gillian Welch
 key: G
 youtube: 7sr3xOEhvBE
+format: cp
 ---
 
-[G]     [C]
-[G]     [C]
-[G]     [Am7]
-[B]     [B]
+[G] [C]
+[G] [C]
+[G] [Am7]
+[B] [B]
 
 Saw a [G]man[C]
 [G]standing at the [C]crossroads[G]
@@ -38,10 +39,10 @@ he can [G]walk on
 he can [G]walk on
 [Gsus4]give that a man [G]road to [F]Jes[Am7]us
 
-[G]     [C]
-[G]     [C]
-[G]     [Am7]
-[B]     [B]
+[G] [C]
+[G] [C]
+[G] [Am7]
+[B] [B]
 
 Gonna [G]push[C]
 [G]onward in my [C]journey[G]

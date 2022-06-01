@@ -3,6 +3,7 @@ title: Cortez the Killer
 artist: Neil Young
 key: Em
 youtube: uX9k9aoX6gk
+format: cp
 ---
 
 [Verse 1]
@@ -54,6 +55,6 @@ Or how I lost my [Am7]way.
 [Outro]
 He came[Em]dancing across the water
 [D]Cortez, Cortez
-[Am7]What a killer.[Am7][Em]
+[Am7]What a killer.[Am7][em]
 
 (Solo)

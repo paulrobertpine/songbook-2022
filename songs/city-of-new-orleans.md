@@ -3,6 +3,7 @@ title: City of New Orleans
 artist: Steve Goodman
 key: C
 youtube: 2SfPyg-mGhU
+format: cp
 ---
 
 [C]Riding on the [G]city of New [C]Orleans

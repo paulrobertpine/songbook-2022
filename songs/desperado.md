@@ -2,6 +2,7 @@
 title: Desperado
 artist: The Eagles
 key: G
+format: cp
 ---
 
 [G]Desp[G7]erado, why don't[C] you come to y[Cm]our senses?

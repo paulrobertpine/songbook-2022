@@ -2,8 +2,10 @@
 title: "Elvis Presley Blues"
 artist: "Gillian Welch & David Rawlings"
 key: G
+format: cp
 ---
-(G/G7 jam)
+
+[G][g7](jam)
 
 I was [G]thinking that night about Elvis
 Day that he died, day that he [G7]died

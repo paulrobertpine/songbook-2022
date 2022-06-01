@@ -3,6 +3,7 @@ title: Dirty Old Town
 artist: The Pogues
 key: D
 youtube: gMMgIqW9vso
+format: cp
 ---
 
 |[D]/ / / / | / / / / | / / / / | / / / / |

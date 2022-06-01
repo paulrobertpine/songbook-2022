@@ -3,7 +3,9 @@ title: Deep River Blues
 artist: Traditional
 key: E
 youtube: 6VAbrnjdtYw
+format: cp
 ---
+
 | [E]/ / / / | [A7]/ / / / | [E]/ / / / | [A7]/ / / / |
 | [E]/ / / / | / / / / | [B]/ / / / | / / / / |
 | [E]/ / / / | [A7]/ / / / | [E]/ / / / | [A7]/ / / / |

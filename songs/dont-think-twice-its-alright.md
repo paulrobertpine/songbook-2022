@@ -3,7 +3,7 @@ title: Don't Think Twice, It's Alright
 artist: Bob Dylan
 key: C
 youtube: 1iHhWh9FtsQ
-tags: folk
+format: cp
 ---
 
 | [C]/ / [G]/ / | [Am]/ / [F]/ / | [C]/ / [G]/ / | [C]/ / / / |[C]/ / / / |

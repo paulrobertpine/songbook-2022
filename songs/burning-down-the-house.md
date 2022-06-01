@@ -3,16 +3,17 @@ title: Burning Down the House
 artist: Talking Heads
 key: G
 youtube: _3eC35LoF4U
+format: cp
 ---
 
-[G]  Watch out [G]     [F]you might get what you're after
-[G]  Cool [G]bab[G]ies   [F]strange but not a stranger
-[G]           I'm [G]an [F]ord-in-ar-y [G]guy
+[G] Watch out [G] [F]you might get what you're after
+[G] Cool [G]bab[G]ies [F]strange but not a stranger
+[G] I'm [G]an [F]ord-in-ar-y [G]guy
 [A7]Burning down the [F]house
 
-[G]  Hold tight  [G]     [F]wait till the party's over
-[G]  Hold ti[G]ght [G]     [F]We're in for nasty weather
-[G]     There has [G]got  [F]to  be  a  [G]way
+[G] Hold tight [G] [F]wait till the party's over
+[G] Hold ti[G]ght [G] [F]We're in for nasty weather
+[G] There has [G]got [F]to be a [G]way
 [A7]Burning down the [F]house
 
 Here's your ticket pack your bag: time for jumpin' overboard
@@ -20,8 +21,8 @@ The transportation is here
 Close enough but not too far, Maybe you know where you are
 Fightin' fire with fire
 
-[G]  All wet [G]    [F]hey you might need a raincoat
-[G]  Shake[G]dow[G]n  [F]dreams walking in broad daylight
+[G] All wet [G] [F]hey you might need a raincoat
+[G] Shake[G]dow[G]n [F]dreams walking in broad daylight
 [G]Three hun-[G]dred [F]six-ty five de-[G]grees
 [A7]Burning down the [F]house
 
@@ -32,8 +33,8 @@ Gonna burst into flame
 
 [A7]Burning down the [F]house
 
-[G]  My house [G]    [F]S'out of the ordinary
-[G]  That's [G]mig[G]ht   [F]Don't want to hurt nobody
+[G] My house [G] [F]S'out of the ordinary
+[G] That's [G]mig[G]ht [F]Don't want to hurt nobody
 [G]Some things sure [G]can s[F]weep me off my [G]feet
 [A7]Burning down the [F]house
 

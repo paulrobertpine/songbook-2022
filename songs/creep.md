@@ -3,6 +3,7 @@ title: Creep
 artist: Radiohead
 key: G
 youtube: XFkzRNyygfk
+format: cp
 ---
 
 | [G]/ / / / | / / / / | [B]/ / / / | / / / / |

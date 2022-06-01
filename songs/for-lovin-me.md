@@ -3,6 +3,7 @@ title: For Lovin Me
 artist: Gordon Lightfoot
 key: D
 youtube: WpkATS6mjbc
+format: cp
 ---
 
 [D]That's what you [D7]get for lovin' [G]me.

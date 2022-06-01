@@ -3,15 +3,17 @@ title: Don't Look Back In Anger
 artist: Oasis
 key: C
 youtube: cmpRLQZkTb8
+format: cp
 ---
+
 | [C]/ / / / | [F]/ / / / | [C]/ / / / | [F]/ / / / |
 
 [C]Slip inside the [G]eye of your [Am]mind
 Don't you [E]know you might [F]find[G]
-A better place to [C]play[Am][G]
+A better place to [C]play[Am][g]
 You [C]said that [G]you'd never [Am]been
 But all the [E]things that you've [F]seen[G]
-Will slowly fade [C]away[Am][G]
+Will slowly fade [C]away[Am][g]
 
 [F]So I start a revo-[Fm]lution from my [C]bed
 'Cause you [F]said the brains I [Fm]had went to my [C]head.
@@ -22,18 +24,18 @@ Will slowly fade [C]away[Am][G]
 
 And [C]so [G]Sally can [Am]wait,
 she [E]knows it's too [F]late as we're
-[G]walking on [C]by[Am][G]
+[G]walking on [C]by[Am][g]
 Her [C]soul [G]slides a-[Am]way,
 [E] but don't look [F]back in anger
-[G]I heard you say[C][G]
+[G]I heard you say[C][g]
 
 [| Am/ / | E/ / | F/ / | G/ / | C/ / | Am/ G/|]
 
 [C]Take me to the [G]place where you [Am]go
-Where [E]nobody [F]knows [G]if it's night or [C]day[Am][G]
+Where [E]nobody [F]knows [G]if it's night or [C]day[Am][g]
 But [C]please don't put your [G]life in the [Am]hands
 Of a [E]Rock n Roll [F]band[G]
-Who'll throw it all a-[C]way[Am][G]
+Who'll throw it all a-[C]way[Am][g]
 
 I'm gonna [F]start a revo-[Fm]lution from my [C]bed
 'Cause you [F]said the brains I [Fm]had went to my [C]head.
@@ -44,24 +46,24 @@ I'm gonna [F]start a revo-[Fm]lution from my [C]bed
 
 And [C]so [G]Sally can [Am]wait,
 she [E]knows it's too [F]late as we're
-[G]walking on [C]by[Am][G]
+[G]walking on [C]by[Am][g]
 Her [C]soul [G]slides a-[Am]way,
 [E] but don't look [F]back in anger
-[G]I heard you say[C][G]
+[G]I heard you say[C][g]
 
 | [F]/ / / / | [Fm]/ / / / | [C]/ / / / | / / / / | (x3)
 | [G]/ / / / | [E7/G#]/ / / / | [Am]/ / [G]/ / | [F]/ / / / | [G]/ / / / | / / / / |
 
 And [C]so [G]Sally can [Am]wait,
 she [E]knows it's too [F]late as we're
-[G]walking on [C]by[Am][G]
+[G]walking on [C]by[Am][g]
 Her [C]soul [G]slides a-[Am]way,
 [E] but don't look [F]back in anger
-[G]I heard you say[C][G]
+[G]I heard you say[C][g]
 
 [C]So [G]Sally can [Am]wait,
 she [E]knows it's too [F]late as we're
-[G]walking on [C]by[Am][G]
+[G]walking on [C]by[Am][g]
 My [C]soul [G]slides a-[Am]way,
 [E] but don't look [F]back in anger
 Don't look [Fm]back in anger [| Fm / / / / |]

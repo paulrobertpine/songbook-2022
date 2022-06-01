@@ -3,7 +3,9 @@ title: Give Me Roses While I Live
 artist: The Carter Family
 key: G
 youtube: Y0kHjaTq8zo
+format: cp
 ---
+
 | [G]/ / / | / / / | / / / | / / / |
 | [D7]/ / / | / / / | [G]/ / / | / / / | (x2)
 

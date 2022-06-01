@@ -3,10 +3,11 @@ title: Closing Time
 artist: Semisonic
 key: G
 youtube: xGytDsqkQY8
+format: cp
 ---
 
-[G]  [D] [Am]  [C]
-[G]  [D] [Am]  [C]
+[G] [D] [Am] [C]
+[G] [D] [Am] [C]
 
 [G]Closing t[D]ime
 [Am]Open all the d[C]oors and l[G]et you out i[D]nto the w[Am]orld[C]
@@ -20,7 +21,7 @@ T[Am]urn all of the lig[C]hts on over ev[G]ery boy and ev[D]ery g[Am]irl[C]
 [G]I know w[D]ho I [Am]want to take me h[C]ome
 [G]I know w[D]ho I [Am]want to take me h[C]ome
 [G]I know w[D]ho I [Am]want to take me h[C]ome
-[G]Take me [D]home[Am][C]
+[G]Take me [D]home[Am][c]
 
 [G]Closing ti[D]me
 [Am]Time for you to g[C]o out to the p[G]laces you w[D]ill be f[Am]rom[C]
@@ -35,13 +36,13 @@ I ho[G]pe you have f[D]ound a fr[Am]iend[C]
 [G]I know w[D]ho I [Am]want to take me h[C]ome
 [G]I know w[D]ho I [Am]want to take me h[C]ome
 [G]I know w[D]ho I [Am]want to take me h[C]ome
-[G]Take me [D]home[Am][C]
+[G]Take me [D]home[Am][c]
 
 [Bb]Bb [Ab]Ab [Eb]Eb [Cm]Cm
-[G][D][Am][C]
+[G][d][Am][c]
 
-[G]  [D] [Am]  [C]
-[G]  [D] [Am]  [C]
+[G] [D] [Am] [C]
+[G] [D] [Am] [C]
 
 [G]Closing t[D]ime
 [Am]Time for you to g[C]o out to the p[G]laces you w[D]ill be fr[Am]om[C]
@@ -49,15 +50,15 @@ I ho[G]pe you have f[D]ound a fr[Am]iend[C]
 [G]I know w[D]ho I [Am]want to take me h[C]ome
 [G]I know w[D]ho I [Am]want to take me h[C]ome
 [G]I know w[D]ho I [Am]want to take me h[C]ome
-[G]Take me [D]home[Am][C]
+[G]Take me [D]home[Am][c]
 
 [G]I know w[D]ho I [Am]want to take me h[C]ome
 [G]I know w[D]ho I [Am]want to take me h[C]ome
 [G]I know w[D]ho I [Am]want to take me h[C]ome
-[G]Take me [D]home[Am][C]
+[G]Take me [D]home[Am][c]
 
-[G]  [D] [Am]  [C]
-[G]  [D] [Am]  [C]
+[G] [D] [Am] [C]
+[G] [D] [Am] [C]
 
 [G]Closing t[D]ime
 [Am]Every new be[C]ginning comes from s[G]ome other beg[D]inning's e[Am]nd[C]

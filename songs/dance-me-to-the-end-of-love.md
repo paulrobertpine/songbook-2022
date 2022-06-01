@@ -3,7 +3,9 @@ title: Dance Me To The End Of Love
 artist: Leonard Cohen
 key: Em
 youtube: NGorjBVag0I
+format: cp
 ---
+
 La la la ...
 | [Am]/ / / / | [Em]/ / / / | [B]/ / / / | [Em]/ / / / | (x2)
 

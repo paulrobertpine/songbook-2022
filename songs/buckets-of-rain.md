@@ -3,6 +3,7 @@ artist: Bob Dylan
 title: Buckets of Rain
 key: E
 youtube: jGsOmKZXDvo
+format: cp
 ---
 
 [E]Buckets of rain

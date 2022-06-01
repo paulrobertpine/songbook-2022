@@ -3,7 +3,9 @@ title: Fruits of my Labour
 artist: Lucinda Williams
 key: G
 youtube: L8wfdjTgIQk
+format: cp
 ---
+
 Capo 1
 
 Baby, [G]see how I been living

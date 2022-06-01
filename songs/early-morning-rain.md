@@ -3,6 +3,7 @@ title: Early Morning Rain
 artist: Gordon Lightfoot
 key: D
 youtube: 1pqttl9aWm0
+format: cp
 ---
 
 [D] [G] [A] [G] [D] [G]
@@ -23,7 +24,7 @@ But I?m stuck here in the [Em]grass
 Now the liquor tasted [Em]good
 [G]And the women all were [D]fast
 Well there she goes my [A]friend
-[G]She's rolling down at [D]last[G][A][G][D][G][D]
+[G]She's rolling down at [D]last[G][a][G][d][G][d]
 
 Hear the mighty engines [A]roar
 [G]See the silver bird on [D]high
@@ -32,7 +33,7 @@ She's away and westward [Em]bound
 Where the morning rain don't [Em]fall
 [G]And the sun always [D]shines
 She'll be flying over my [A]home
-[G]In about three hours [D]time[G][A][G][D][G][D]
+[G]In about three hours [D]time[G][a][G][d][G][d]
 
 This old airport?s got me [A]down
 [G]It's no earthly good to [D]me
