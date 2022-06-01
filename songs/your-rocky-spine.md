@@ -3,6 +3,7 @@ title: Your Rocky Spine
 artist: Great Lake Swimmers
 key: Gm
 youtube: eQ6W_cq-zQ0
+format: cp
 ---
 
 |[Gm]/ / / / |[F]/ / / / |[C]/ / / / |[Eb]/ / / / | x2
@@ -10,7 +11,7 @@ youtube: eQ6W_cq-zQ0
 I was [Gm]lost in the [F]lakes
 And the [C]shapes that your [Eb]body makes
 That your [Gm]body makes, that your [F]body makes
-That your [C]body makes  [Eb]
+That your [C]body makes [Eb]
 
 |[F]/ / / / |[Eb]/ / / / | (x2)
 

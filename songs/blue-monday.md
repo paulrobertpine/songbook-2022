@@ -3,6 +3,7 @@ title: Blue Monday
 artist: New Order
 key: F
 youtube: FYH8DsU2WCk
+format: cp
 ---
 
 [F]How [C]does it [Dm]feel

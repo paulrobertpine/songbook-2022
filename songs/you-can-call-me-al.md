@@ -1,7 +1,10 @@
 ---
 title: You Can Call Me Al
 artist: Paul Simon
+key: G
+format: cp
 ---
+
 [G]A man walks d[D]own the street,
 he says[C] why am I s[D]oft in the middle now,
 [G]why am I s[D]oft in the middle,
@@ -18,10 +21,10 @@ g[C]et these mutts aw[D]ay from me,
 you kn[G]ow I don't f[D]ind this stuff am[C]using anym[D]ore.
 
 [G]If youll be my b[D]odyguard
-[C]I can be your l[D]ong l[G]ost p[D]al,[C][D]
+[C]I can be your l[D]ong l[G]ost p[D]al,[C][d]
 [G]I can call you B[D]etty,
 and B[C]etty when you c[D]all me
-you can c[G]all me Al.[D][C][D]
+you can c[G]all me Al.[D][c][D]
 
 [G]A man walks d[D]own the street,
 he says[C] why am I s[D]hort of attention,
@@ -39,11 +42,11 @@ there were inci[C]dents and ac[D]cidents,
 there were hints and allegations.
 
 [G]If youll be my b[D]odyguard
-[C]I can be your l[D]ong l[G]ost p[D]al,[C][D]
+[C]I can be your l[D]ong l[G]ost p[D]al,[C][d]
 [G]I can call you B[D]etty,
 and B[C]etty when you c[D]all me
-you can c[G]all m[D]e  A[C]l.[D]
-call me [G]Al.[D][C][D]
+you can c[G]all m[D]e A[C]l.[D]
+call me [G]Al.[D][c][D]
 
 [G]A man walks d[D]own the street,
 its a s[C]treet in a [D]strange world,
@@ -55,14 +58,14 @@ he hold[C]s no curren[D]cy,
 he is s[C]urrounded b[D]y
 [G]the sound, th[D]e sound,
 cattle [C]in the mark[D]etplace,
-[G]scatterlings [D]and orphanages,[C][D]
+[G]scatterlings [D]and orphanages,[C][d]
 [G]he looks arou[D]nd, around,
 he sees[C] angels in [D]the architecture,
 [G]spinning in i[D]nfinity,
 he says[C] Amen and H[D]allelujah!
 
 [G]If youll be my b[D]odyguard
-[C]I can be your l[D]ong l[G]ost p[D]al,[C][D]
+[C]I can be your l[D]ong l[G]ost p[D]al,[C][d]
 [G]I can call you B[D]etty,
 and B[C]etty when you c[D]all me
-you can c[G]all me Al.[D][C][D]
+you can c[G]all me Al.[D][c][D]

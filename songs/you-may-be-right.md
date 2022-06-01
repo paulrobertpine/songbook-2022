@@ -3,9 +3,9 @@ title: You May Be Right
 artist: Billy Joel
 key: A
 youtube: Jo9t5XK0FhA
+format: cp
 ---
 
-[Verse 1]
 [A]Friday night I crashed your party,
 
 Saturday I said I'm sorry
@@ -23,7 +23,6 @@ And you t[Bm]old me not to drive,
 But I m[G]ade it home alive
 So you sa[E]id that only proves that I'm insa[A]ne[A]
 
-[Chorus]
 You may be right,[E]
 I may be crazy[A]
 Oh, but it ju[E]st may be a lu[D]natic
@@ -35,7 +34,6 @@ But you may be rig[A]ht
 
 (Play Intro lick x4)
 
-[Verse 2]
 [A]Remember how I found you there
 Alone in your electric chair
 I told you dirty jokes until you sm[E7]iled
@@ -50,7 +48,6 @@ If I'm c[Bm]razy then it's true
 That it's a[G]ll because of you
 And you w[E]ouldn't want me any other w[A]ay
 
-[Chorus]
 You may be right,[E]
 I may be crazy[A]
 Oh, but it ju[E]st may be a lu[D]natic
@@ -62,10 +59,8 @@ But you may be rig[A]ht
 
 (Play Intro lick x2)
 
-[Lead Break]
-[A] [E7][Bm][G][E][A]
+[A] [E7][bm][G][e][A]
 
-[Chorus]
 You may be right,[E]
 I may be crazy[A]
 Hey, but it j[E]ust may be a l[D]unatic
@@ -77,8 +72,7 @@ But you may be rig[A]ht
 
 (Play Intro lick x2)
 
-[Outro]
-[A]You may be wrong but you may be right[A][A]
-[A]You may be wrong but you may be right[A][A]
-[A]You may be wrong but you may be right[A][A]
-[A]You may be wrong but you may be right[A][A]
+[A]You may be wrong but you may be right[A][a]
+[A]You may be wrong but you may be right[A][a]
+[A]You may be wrong but you may be right[A][a]
+[A]You may be wrong but you may be right[A][a]

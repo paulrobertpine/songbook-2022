@@ -3,9 +3,8 @@ title: You're Gonna Make Me Lonesome When You Go
 artist: Bob Dylan
 key: C
 youtube: Claf8E18eLs
+format: cp
 ---
-
-Capo 4
 
 [C]I've seen lo[Cmaj7]ve go by my door
 [F]It's never been this close before

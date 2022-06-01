@@ -3,6 +3,7 @@ title: Blank Space
 artist: Taylor Swift
 key: D
 youtube: e-ORhEE9VVg
+format: cp
 ---
 
 | [D]/ / / / |

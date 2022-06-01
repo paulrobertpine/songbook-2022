@@ -1,9 +1,9 @@
 ---
-slug: yesterdayyyyyy
 title: Yesterday
 artist: The Beatles
 key: F
 youtube: NrgmdOz227I
+format: cp
 ---
 
 [F]Yesterday [Em7]all my trou[A7]bles seemed so f[Dm]ar away[Dm/C]

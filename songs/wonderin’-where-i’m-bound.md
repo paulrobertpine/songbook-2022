@@ -3,7 +3,9 @@ title: Wonderin’ Where I’m Bound
 artist: Tom Paxton
 key: C
 youtube: e2OnQ0ANO5Q
+format: cp
 ---
+
 (intro)
 [Dm]/ / [G]/ / [C]/ / [Am]/ /
 [Dm]/ / [G]/ / [C]/ / / /

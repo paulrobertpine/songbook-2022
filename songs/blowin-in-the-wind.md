@@ -3,6 +3,7 @@ title: Blowin' In The Wind
 artist: Bob Dylan
 key: G
 youtube: MMFj8uDubsE
+format: cp
 ---
 
 [G]How many [C]roads must a [D]man walk [G]down
