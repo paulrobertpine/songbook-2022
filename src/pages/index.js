@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { graphql, Link } from "gatsby"
-import { MdChangeCircle, MdClear } from "react-icons/md"
+import { MdChangeCircle, MdClear, MdSortByAlpha } from "react-icons/md"
 import Layout from "../components/layout"
 const title = "Songbook"
 
@@ -23,7 +23,7 @@ export default function Home({ data }) {
   const { allMarkdownRemark } = data
   const posts = allMarkdownRemark.nodes
   const [search, setSearch] = useState("")
-  const [shuffled, setShuffled] = useState(0)
+  const [shuffled, setShuffled] = useState(1)
 
   let filteredSongs = posts.filter((post) => {
     return (
@@ -73,6 +73,11 @@ export default function Home({ data }) {
               <button onClick={() => setShuffled(shuffled + 1)}>
                 <MdChangeCircle />
               </button>
+              <button onClick={() => setShuffled(0)}>
+                <MdSortByAlpha />
+              </button>
+
+
             </span>
 
             <span id="filter-search">
