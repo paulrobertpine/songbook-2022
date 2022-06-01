@@ -17,8 +17,7 @@ export default function Song({ data }) {
 
   if (frontmatter.format === "cp") {
     parser = new ChordSheetJS.ChordProParser()
-  }
-  else {
+  } else {
     parser = new ChordSheetJS.UltimateGuitarParser()
   }
 
@@ -66,13 +65,13 @@ export default function Song({ data }) {
   return (
     <Layout title={frontmatter.title}>
       <article className="song">
-        <header className="song-header">
+        <header className="page-header">
           <section className="container">
-            <h1 className="fancy">
+            <h1 className="fancy chunk">
               <Link to="/">{frontmatter.title}</Link>
             </h1>
-            <span className="artist">{frontmatter.artist}</span>
-            <span className="key">
+            <span className="artist chunk">{frontmatter.artist}</span>
+            <span className="key chunk">
               <p>Key of {key.toString()}</p>
               <nav className="transposer">
                 <button onClick={() => goDown()}>

@@ -1,44 +1,33 @@
 #home {
   header {
-    background-color: $clr-bg;
-    border-bottom: 1px solid $clr-accent;
-    color: $clr-primary;
-    font-weight: bold;
-    @include spacer;
-
     section.container {
-      @include spacer;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
+      // @include spacer;
+      @include flex;
       justify-content: space-between;
-
-      h1 {
-        padding: 0.5rem;
-      }
 
       #song-list-control {
         @include flex;
-        padding: 0.5rem;
 
         button {
           font-size: 2rem;
           margin: 0.5rem;
         }
+
+        @include small {
+          margin: 0 1rem;
+        }
       }
 
       #filter-search {
-        background-color: white;
         @include flex;
-        margin: 1rem 0 0;
-        padding: 0 0.5rem;
+        background-color: white;
         width: 100%;
         border: 1px solid $clr-primary;
 
         input {
           border: 0;
           margin-right: 0.5rem;
-          padding: 0.5rem 0;
+          padding: 0.5rem;
           flex-grow: 1;
 
           &:focus-visible {
@@ -49,54 +38,48 @@
         button {
           width: 1.5rem;
           font-size: 1.5rem;
-          // background-color: $clr-primary;
         }
 
         @include medium {
-          margin: 0;
           width: auto;
         }
       }
     }
   }
 
-  section.container {
-    @include spacer;
+  ol.song-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 
-    ol.song-list {
-      margin: 0;
-      padding: 0;
-      list-style: none;
+    li {
+      margin: 1rem;
 
-      li {
-        margin: 1rem;
+      &:hover {
+        background-color: $clr-bg;
+      }
 
-        &:hover {
-          background-color: $clr-bg;
+      a {
+        display: block;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        color: $clr-primary;
+
+        .title {
+          font-weight: 500;
         }
 
-        a {
-          display: block;
-          text-decoration: none;
-          display: flex;
-          align-items: center;
-          color: $clr-primary;
+        .artist {
+          margin-left: 0.5rem;
+          font-size: 0.8rem;
 
-          .title {
-            font-weight: 500;
+          &::before {
+            content: "(";
           }
 
-          .artist {
-            margin-left: 0.5rem;
-            font-size: 0.8rem;
-
-            &::before {
-              content: "(";
-            }
-
-            &::after {
-              content: ")";
-            }
+          &::after {
+            content: ")";
           }
         }
       }

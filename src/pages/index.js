@@ -13,7 +13,7 @@ export default function Home({ data }) {
   let filteredSongs = posts.filter((post) => {
     return (
       post.frontmatter.title.toLowerCase().indexOf(search.toLowerCase()) !==
-      -1 ||
+        -1 ||
       post.frontmatter.artist.toLowerCase().indexOf(search.toLowerCase()) !== -1
     )
   })
@@ -50,10 +50,13 @@ export default function Home({ data }) {
   return (
     <Layout title={title}>
       <article id="home">
-        <header>
+        <header className="page-header">
           <section className="container">
-            <h1 className="fancy"><Link to="/">{title}</Link></h1>
-            <span id="song-list-control">
+            <h1 className="fancy chunk">
+              <Link to="/">{title}</Link>
+            </h1>
+
+            <span id="song-list-control" className="chunk">
               {filteredSongs.length} Songs
               <button onClick={() => setShuffled(shuffled + 1)}>
                 <MdChangeCircle />
@@ -61,11 +64,9 @@ export default function Home({ data }) {
               <button onClick={() => setShuffled(0)}>
                 <MdSortByAlpha />
               </button>
-
-
             </span>
 
-            <span id="filter-search">
+            <span id="filter-search" className="chunk">
               <input
                 type="text"
                 placeholder="title or artist"
@@ -109,7 +110,7 @@ function shuffle(array) {
   while (currentIndex !== 0) {
     randomIndex = Math.floor(Math.random() * currentIndex)
     currentIndex--
-    [array[currentIndex], array[randomIndex]] = [
+    ;[array[currentIndex], array[randomIndex]] = [
       array[randomIndex],
       array[currentIndex],
     ]

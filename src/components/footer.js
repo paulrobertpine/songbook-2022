@@ -9,11 +9,11 @@ export default function Footer() {
   return (
     <footer id="site-footer">
       <section className="container">
-        <span>
+        <span className="chunk">
           © <Link to="/">Songbook</Link> {new Date().getFullYear()}
         </span>
 
-        <nav className="scroll-control">
+        <nav className="scroll-control chunk">
           <button onClick={() => scroll.scrollToTop()}>
             <IoArrowUpCircle />
           </button>

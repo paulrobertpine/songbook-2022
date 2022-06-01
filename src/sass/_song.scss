@@ -1,26 +1,13 @@
 .song {
-  .song-header {
-    @include spacer;
-    background-color: $clr-bg;
-    border-bottom: 1px solid $clr-accent;
-    color: $clr-primary;
-    font-weight: bold;
-
+  header {
     .container {
-      @include spacer;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-between;
+      @include flex;
     }
 
-    h1 {
-      line-height: 1.2;
-      padding: 0.5rem;
-    }
-
-    span {
-      padding: 0.5rem;
+    span.artist {
+      @include small {
+        margin: 0 1rem;
+      }
     }
 
     span.key {
@@ -43,6 +30,8 @@
   }
 
   .song-content {
+    padding: 1rem;
+
     .paragraph {
       margin-bottom: 2rem;
 

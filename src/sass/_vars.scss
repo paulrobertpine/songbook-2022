@@ -17,10 +17,7 @@
   src: url("../fonts/rubik-medium.woff2") format("woff2");
 }
 
-// @import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap");
-
 $font-main: rubik, sans-serif;
-// $font-main: "Cabin", sans-serif;
 
 // colours
 $clr-primary: hsl(216, 71%, 39%);
@@ -28,7 +25,7 @@ $clr-accent: hsl(62, 100%, 40%);
 $clr-bg: hsla(62, 100%, 40%, 10%);
 
 // breakpoints
-$breakpoint-small: 420px;
+$breakpoint-small: 400px;
 $breakpoint-med: 700px;
 $breakpoint-lrg: 1200px;
 
@@ -52,11 +49,12 @@ $breakpoint-lrg: 1200px;
 
 // utils
 @mixin spacer {
-  padding: 1rem;
+  margin: 1rem;
 }
 
 @mixin flex {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
 }
