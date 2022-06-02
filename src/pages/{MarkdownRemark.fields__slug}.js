@@ -16,9 +16,12 @@ export default function Song({ data }) {
   }
 
   if (frontmatter.format === "cp") {
+    // console.log("chordpro format")
     parser = new ChordSheetJS.ChordProParser()
   } else {
+    // console.log("ulimate guitar format")
     parser = new ChordSheetJS.UltimateGuitarParser()
+    // parser = new ChordSheetJS.ChordSheetParser();
   }
 
   const [key, setKey] = useState(Chord.parse(keyExists))
@@ -26,12 +29,17 @@ export default function Song({ data }) {
   const formatter = new ChordSheetJS.HtmlDivFormatter()
   const disp = formatter.format(song)
 
+  // console.log("song: ", song)
+
+  // song.setKey("B")
+
   function goDown() {
     setKey(key.transposeDown())
 
     song.mapItems((item) => {
+
       if (item instanceof ChordLyricsPair) {
-        const chord = Chord.parse(item.chords)
+        const chord = Chord.parse(item.chords.trim())
 
         if (chord) {
           item.chords = chord.transposeDown().toString()
@@ -49,7 +57,7 @@ export default function Song({ data }) {
 
     song.mapItems((item) => {
       if (item instanceof ChordLyricsPair) {
-        const chord = Chord.parse(item.chords)
+        const chord = Chord.parse(item.chords.trim())
 
         if (chord) {
           item.chords = chord.transposeUp().toString()
