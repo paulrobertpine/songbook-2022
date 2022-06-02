@@ -3,7 +3,9 @@ title: Please Do Not Go
 artist: Violent Femmes
 key: G
 youtube: CZd0GJYKwzY
+format: cp
 ---
+
 | [G]/ / / / | [C]/ / [D]/ / |(x4)
 
 [G]Tell ya', man, I'm stuck on this lovely [C]girl[D]
