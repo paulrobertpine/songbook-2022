@@ -3,7 +3,9 @@ title: I Think We're Alone Now
 artist: Tiffany
 key: D
 youtube: w6Q3mHyzn78
+format: cp
 ---
+
 | [D]/ / / / | [A]/ / / / | [G]/ / / / | [D]/ / / / |(x2)
 
 [D]Children be-[F#m]have

@@ -3,9 +3,10 @@ artist: Neil Young
 title: Helpless
 key: D
 youtube: Ab6ST1q43c4
+format: cp
 ---
 
-[D] [A][G][D][A][G]
+[D] [A][g][D][a][G]
 
 [D]There is a [A]town in north Ont[G]ario,
 [D]With dream[A] comfort memory to sp[G]are,
@@ -22,7 +23,7 @@ youtube: Ab6ST1q43c4
 [D]The chain[A]s are locked and t[G]ied across the door,
 [D]Ba[A]by, sing[G]with me some how.
 
-[D] [A][G][D][A][G]
+[D] [A][g][D][a][G]
 
 [D]Blue, blue [A]windows behind th[G]e stars,
 [D]Yellow moo[A]n on the rise,[G]

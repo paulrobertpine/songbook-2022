@@ -3,6 +3,7 @@ title: I Quit My Job
 artist: Old Man Luedecke
 key: D
 youtube: R79whVcsrxI
+format: cp
 ---
 
 [B]
@@ -24,10 +25,10 @@ On your [B]own
 [F#]Take that wrong and right it [B]ho
 [F#]Can always live on rice and po[E]tatoes
 [F#]Take your heart’s candle and re[E]light it
-[E]  I [F#]quit my [B]job
-[E]  I [F#]quit my [B]job
-[E]  I [F#]quit my [B]job
-[E]  I’m[F#] free t[B]oday
+[E] I [F#]quit my [B]job
+[E] I [F#]quit my [B]job
+[E] I [F#]quit my [B]job
+[E] I’m[F#] free t[B]oday
 
 [B]
 [E] [B]

@@ -1,6 +1,8 @@
 ---
 title: Heart Shaped Box
 artist: Nirvana
+key: Am
+format: ug
 ---
 
 [Verse]

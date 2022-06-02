@@ -1,8 +1,9 @@
 ---
-title: 'Hold On'
-artist: 'Tom Waits'
+title: "Hold On"
+artist: "Tom Waits"
 key: D
 youtube: 0P5jV4lHHR0
+format: cp
 ---
 
 |[D]/ / / / | / / / / | / / / / | / / / / |

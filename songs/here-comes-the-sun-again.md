@@ -3,6 +3,7 @@ artist: M. Ward
 title: Here Comes the Sun Again
 key: C
 youtube: oARKRB6hJX8
+format: cp
 ---
 
 [C]Kingdoms and [F]queens they all [G]bow down to [C]you,

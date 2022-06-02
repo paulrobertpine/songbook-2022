@@ -3,7 +3,9 @@ artist: Leonard Cohen
 title: Hallelujah
 key: G
 youtube: YrLk4vdY28Q
+format: cp
 ---
+
 Now I've [G]heard there was a se[Em]cret chord
 That [G]David played, and it pl[Em]eased the Lord
 But [C]you don't really [D]care for music, do y[G]ou?[D]

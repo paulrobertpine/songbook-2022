@@ -3,9 +3,10 @@ title: Hard Times
 artist: Gillian Welch & David Rawlings
 key: C
 youtube: k35haKwqY14
+format: cp
 ---
 
-intro 
+intro
 instead of C you can play
 |[C]/ / [Csus2]/ / |[C] / / [Csus4]/ / |
 
@@ -16,8 +17,7 @@ When the [Am]day got [G]long as it [F]does about [C]now
 
 [C]Calling, "Come on my sweet old girl,
 I'd bet the whole damn world, that
-we're gonna [Dm]make it [C/E]yet to the end of the [G]road"[Gsus][G]
-
+we're gonna [Dm]make it [C/E]yet to the end of the [G]road"[Gsus][g]
 
 Singing [Am]hard times[G] ain't gonna [F]rule my [C]mind
 [Am]Hard times[G] ain't gonna [F]rule my [C]mind, Bessie
@@ -40,7 +40,6 @@ But the [Am]camptown [G]man, he doesn't [F]plow no [C]more
 [Am]I seen him [G]walking down to the [F]superette [C]store
 Guess he [Am]lost that [G]knack and he [F]forgot that [C]song
 [Am]Woke up one [G]morning and the [F]mule was [C]gone
-
 
 [C]So come all you ragtime kings,
 'n come on you dogs and sing

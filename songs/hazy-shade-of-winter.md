@@ -3,6 +3,7 @@ artist: Simon & Garfunkel
 title: Hazy Shade of Winter
 key: Dm
 youtube: dVA-1iJxRQI
+format: cp
 ---
 
 [Dm]Time, time, time, see what's be[C]come of me
@@ -31,7 +32,7 @@ The fields are [Bb]ripe, it's the [A7]springtime of my [Dm]life
 
 [Bb]Ahhh, seasons change with the [F]scenery
 Weaving time in a [Cadd9]tapestry
-Won't you stop and re[Dm]mem[D7sus2]ber    [Dm]me
+Won't you stop and re[Dm]mem[D7sus2]ber [Dm]me
 [C]At any convenient time
 [Bb]Funny how my memory slips while looking over manuscripts
 [Am]Of unpublished rhyme

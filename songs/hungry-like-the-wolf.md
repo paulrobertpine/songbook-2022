@@ -3,6 +3,7 @@ title: Hungry Like the Wolf
 artist: Duran Duran
 key: E
 youtube: oJL-lCzEXgI
+format: cp
 ---
 
 [E]Dark in the city, [Esus4]night is a [E]wire, steam in the subway, the [Esus4]earth is a-[E]fire
@@ -34,4 +35,4 @@ Mouth is a-[C]live with juices like [G]wine and I'm [F]hungry like the [D]wolf
 Burning the [C]ground, I break from the [G]crowd, I'm on the [F]hunt, I'm after you
 Scent and a [C]sound, I'm lost and I'm [G]found and I'm [F]hungry like the [D]wolf
 Straddle the [C]line, it's discord and [G]rhyme, I howl and I [F]whine, I'm after you
-Mouth is a[C]live, all running in-[G]side, and I'm [F]hungry like the [D]wolf   (Fade)
+Mouth is a[C]live, all running in-[G]side, and I'm [F]hungry like the [D]wolf (Fade)

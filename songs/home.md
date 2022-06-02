@@ -3,8 +3,10 @@ title: Home
 artist: Edward Sharpe & The Magnetic Zeros
 key: Bm
 youtube: DHEOF_rcND8
+format: cp
 ---
-[Bm][D][D/F#][D][G]
+
+[Bm][d][D/F#][d][G]
 
 [Her:]
 [Bm]Alabama, Arkansas,
@@ -32,16 +34,16 @@ Ahh [Bm]Home. Let me come [D]home
 Ahh [Bm]Home. Let me go ho[D]-oh-ome.
 [D/F#]Home is wher[D]ever I'm with [G]you.
 
-[Trumpet Section] 
+[Trumpet Section]
 (listen for the timing)
 [Em] [D] [A]
 [Em] [D] [A]
-[Em] [D]  [G]
+[Em] [D] [G]
 [Bm]La, la, [A]la, la, [Em]take me [G]home.
 [A]Mother, I'm coming home.
 
 (with whistling)
-[Bm][D][D/F#][D][G] (x2)
+[Bm][d][D/F#][d][G] (x2)
 
 [Him:]
 [Bm]I'll follow you into the park,
@@ -72,12 +74,12 @@ Ahh [Bm]Home. Let me com[D]e ho-oh-ome.
 [D/F#]Home is wher[D]ever I'm with [G]you.
 [Em] [D] [A]
 [Em] [D] [A]
-[Em] [D]  [G]
+[Em] [D] [G]
 [Bm]La, la, [A]la, la, [Em]take me [G]home.
 [A]Mother, I'm coming home.
 
 (Talking)
-[Bm][D][D/F#][D][G] (x4)
+[Bm][d][D/F#][d][G] (x4)
 
 Him: Jade
 Her: Alexander
@@ -88,7 +90,7 @@ place and I rushed you out to the hospital, you remember that?
 Her: Yes I do.
 Him: Well there's something I never told you about that night.
 Her: What didn't you tell me?
-Him: While you were sitting in the backseat smoking a cigarette you thought was gonna be 
+Him: While you were sitting in the backseat smoking a cigarette you thought was gonna be
 last, I was falling deep, deeply in love with you, and I never told you til just now.
 
 [Both:]
@@ -99,7 +101,7 @@ Ahh [Bm]Home. Let me com[D]e ho-oh-ome.
 
 [Him:]
 [Bm]Home. Let me come [D]home.
-NC.                       [G]
+NC. [G]
 Home is wherever I'm with you.
 
 [Her:]
@@ -113,7 +115,7 @@ Home is wherever I'm with you.
 [D/F#]Alley-ways and [D]pay phone [G]calls...
 
 [Both:]
-[Bm]Home...   [D]Home...
+[Bm]Home... [D]Home...
 [D/F#]Home is when [D]I'm alone with [G]you.
-[Bm]Home...   [D]Home...
+[Bm]Home... [D]Home...
 [D/F#]Home is when [D]I'm alone with [G]you...

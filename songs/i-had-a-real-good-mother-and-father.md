@@ -3,8 +3,10 @@ title: I Had a Real Good Mother and Father
 artist: Gillian Welch
 key: G
 youtube: e4tAg9fhb9Y
+format: cp
 ---
-Intro 
+
+Intro
 [F] [C] [G] (x2)
 
 I[G] had a real good mot[F]her and fat[C]her

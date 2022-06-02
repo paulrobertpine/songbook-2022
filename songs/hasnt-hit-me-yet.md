@@ -3,7 +3,9 @@ title: Hasn't Hit Me Yet
 artist: Blue Rodeo
 key: D
 youtube: oMt0skVPC0o
+format: cp
 ---
+
 [D] [D] [Em] [C]
 
 [G]You say that you're [D]leaving
@@ -27,7 +29,7 @@ Be[D]fore this street [A]light
 [G]I never thought this could ha[D]ppen
 But so[Em]mehow the feeling is g[C]one
 [G]You got sick of the pa[D]tterns
-And [Em]I got lost in this so[C]ng[G][A]
+And [Em]I got lost in this so[C]ng[G][a]
 
 [Em]Hey [G]Hey I guess it [D]hasn't hit me [A]yet
 [Em]I fell thru this [G]crack
@@ -36,7 +38,7 @@ And I [D]kinda lost my [A]head
 Be[D]fore this street [A]light
 [Em]Watching the [G]snow fall on this [D]co-[A]old December night
 
-[D][D][Em][C]
+[D][d][Em][c]
 
 [Solo]
 [G] [D] [Em] [C] [G] [A]

@@ -3,6 +3,7 @@ title: "Here comes your man"
 artist: "Pixies"
 key: D
 youtube: tPgf_btTFlc
+format: cp
 ---
 
 | [D]/ / / / | [G]/ / [A]/ / | (x3)
@@ -18,9 +19,9 @@ youtube: tPgf_btTFlc
 
 [Bm]There is a wait so [G]long (so long, so long)
 [A]You'll never wait so [D]long
-[G][A]Here comes your [D]man
-[G][A]Here comes your [D]man
-[G][A]Here comes your man
+[G][a]Here comes your [D]man
+[G][a]Here comes your [D]man
+[G][a]Here comes your man
 
 | [D]/ / / / | [A]/ / / / | [Em]/ / / / | [G]/ / / / |
 
@@ -31,25 +32,25 @@ A [Em]big, big stone fall and [G]break my crown
 
 [Bm]There is a wait so [G]long (so long, so long)
 [A]You'll never wait so [D]long
-[G][A]Here comes your [D]man
-[G][A]Here comes your [D]man
-[G][A]Here comes your [D]maaaaaan
-[G][A]Here comes your man
+[G][a]Here comes your [D]man
+[G][a]Here comes your [D]man
+[G][a]Here comes your [D]maaaaaan
+[G][a]Here comes your man
 
 | [D]/ / / / | [A]/ / / / | [Em]/ / / / | [G]/ / / / |(x4)
 
 [Bm]There is a wait so [C]long (so long, so long)
 [A]You'll never wait so [D]long
-[G][A]Here comes your [D]man
-[G][A]Here comes your [D]man
-[G][A]Here comes your [D]maaaaaan
-[G][A]Here comes your [D]man
-[G][A]Here comes your [D]man
-[G][A]Here comes your [D]man
-[G][A]Here comes your [D]maaaaaan
-[G][A]Here comes your [D]maaaaaan
-[G][A]Here comes your [D]man
-[G][A]Here comes your [D]man
-[G][A]Here comes your [D]maaaaaan
-[G][A]Here comes your [D]maaaaaan
-[G][A]Here comes your [D]man
+[G][a]Here comes your [D]man
+[G][a]Here comes your [D]man
+[G][a]Here comes your [D]maaaaaan
+[G][a]Here comes your [D]man
+[G][a]Here comes your [D]man
+[G][a]Here comes your [D]man
+[G][a]Here comes your [D]maaaaaan
+[G][a]Here comes your [D]maaaaaan
+[G][a]Here comes your [D]man
+[G][a]Here comes your [D]man
+[G][a]Here comes your [D]maaaaaan
+[G][a]Here comes your [D]maaaaaan
+[G][a]Here comes your [D]man

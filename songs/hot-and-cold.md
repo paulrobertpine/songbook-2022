@@ -3,6 +3,7 @@ title: Hot and Cold
 artist: Katy Perry
 Key: G
 youtube: kTHNpusq654
+format: cp
 ---
 
 [G]You change your m[D]ind
@@ -32,7 +33,7 @@ You're y[D]es then you're no
 You're i[Am]n then you're out
 You're u[C]p then you're down
 
-[G][D][Am][C]
+[G][d][Am][c]
 
 [G]We used to [D]be
 Just like tw[Am]ins, so in sy[C]nc

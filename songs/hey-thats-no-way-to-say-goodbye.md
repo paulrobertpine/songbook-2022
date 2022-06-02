@@ -3,7 +3,9 @@ title: Hey Thats No Way To Say Goodbye
 artist: Leonard Cohen
 key: A
 youtube: b-bJPmasXKs
+format: cp
 ---
+
 [E]
 
 I [A]loved you in the morning, our kisses deep and warm,
@@ -20,8 +22,6 @@ your [D]eyes are soft with sorrow,
 
 [E]Hey, that's no way to say good [A]by[E]e.
 
-
-
 I'm not [A]looking for another as I wander in my time,
 
 [F#m]walk me to the corner, our steps will always rhyme
@@ -35,8 +35,6 @@ but [F#m]let's not talk of love or chains and things we can't untie,
 your [D]eyes are soft with sorrow,
 
 [E]Hey, that's no way to say good [A]by[E]e.
-
-
 
 I [A]loved you in the morning, our kisses deep and warm,
 

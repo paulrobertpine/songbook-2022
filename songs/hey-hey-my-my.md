@@ -1,6 +1,7 @@
 ---
 title: "Hey Hey, My My"
 artist: Neil Young
+format: ug
 ---
 
 [Intro]

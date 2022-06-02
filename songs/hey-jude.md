@@ -3,7 +3,9 @@ artist: The Beatles
 title: Hey Jude
 key: D
 youtube: A_MjCqQoLLA
+format: cp
 ---
+
 Hey [D]Jude, don’t make it [A]bad, take a [A7]sad song and make it [D]better
 Re[G]member to let her into your [D]heart, then you can s[A]tart to [A7]make it [D]better
 
