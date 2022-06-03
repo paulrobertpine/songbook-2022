@@ -30,7 +30,9 @@ body {
 h1.fancy {
   color: $clr-accent;
   text-shadow: 0.1rem 0.1rem 0 $clr-primary;
+  font-size: 2rem;
   line-height: 1.5;
+  margin: 0 0 1rem 0;
 
   a {
     text-decoration: none;
@@ -54,13 +56,18 @@ button {
   padding: 0;
 }
 
-.chunk {
-  @include spacer;
-}
-
 .page-header {
+  padding: 1rem 1rem 0;
   background-color: $clr-bg;
   color: $clr-primary;
   border-bottom: 1px solid $clr-accent;
   font-weight: bold;
+
+  .chunk {
+    margin: 0 1rem 1rem 0;
+
+    &:last-child {
+      margin: 0 0 1rem 0;
+    }
+  }
 }

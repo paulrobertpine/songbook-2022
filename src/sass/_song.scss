@@ -4,12 +4,6 @@
       @include flex;
     }
 
-    span.artist {
-      @include small {
-        margin: 0 1rem;
-      }
-    }
-
     span.key {
       display: flex;
       align-items: center;

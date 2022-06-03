@@ -1,7 +1,8 @@
 #home {
   header {
+    
     section.container {
-      // @include spacer;
+
       @include flex;
       justify-content: space-between;
 
@@ -11,10 +12,6 @@
         button {
           font-size: 2rem;
           margin: 0.5rem;
-        }
-
-        @include small {
-          margin: 0 1rem;
         }
       }
 
