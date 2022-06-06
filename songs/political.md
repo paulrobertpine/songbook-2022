@@ -2,7 +2,6 @@
 title: Political
 artist: Spirit of The West
 key: A
-format: ug
 ---
 A                    Asus2
 I was tired of being put right down by my
