@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { graphql, Link } from "gatsby"
-import ChordSheetJS, { Chord, ChordLyricsPair } from "chordsheetjs"
+import ChordSheetJS from "chordsheetjs"
 import Layout from "../components/layout"
 import Scroller from "../components/scroller"
 import { AiFillPlusCircle, AiFillMinusCircle } from "react-icons/ai"
@@ -10,65 +10,18 @@ export default function Song({ data }) {
   const { frontmatter, rawMarkdownBody } = markdownRemark
   let parser
 
-  let keyExists = frontmatter.key
-  if (!keyExists) {
-    keyExists = "A"
-  }
-
   if (frontmatter.format === "cp") {
-    // console.log("chordpro format")
     parser = new ChordSheetJS.ChordProParser()
   } else {
-    // console.log("ulimate guitar format")
     parser = new ChordSheetJS.UltimateGuitarParser()
-    // parser = new ChordSheetJS.ChordSheetParser();
   }
 
-  const [key, setKey] = useState(Chord.parse(keyExists))
-  const [song] = useState(parser.parse(rawMarkdownBody))
+  const [song, setSong] = useState(
+    parser.parse(rawMarkdownBody).setKey(frontmatter.key)
+  )
+
   const formatter = new ChordSheetJS.HtmlDivFormatter()
   const disp = formatter.format(song)
-
-  // console.log("song: ", song)
-
-  // song.setKey("B")
-
-  function goDown() {
-    setKey(key.transposeDown())
-
-    song.mapItems((item) => {
-
-      if (item instanceof ChordLyricsPair) {
-        const chord = Chord.parse(item.chords.trim())
-
-        if (chord) {
-          item.chords = chord.transposeDown().toString()
-        }
-
-        return item
-      }
-
-      return item
-    })
-  }
-
-  function goUp() {
-    setKey(key.transposeUp())
-
-    song.mapItems((item) => {
-      if (item instanceof ChordLyricsPair) {
-        const chord = Chord.parse(item.chords.trim())
-
-        if (chord) {
-          item.chords = chord.transposeUp().toString()
-        }
-
-        return item
-      }
-
-      return item
-    })
-  }
 
   return (
     <Layout title={frontmatter.title}>
@@ -80,12 +33,12 @@ export default function Song({ data }) {
             </h1>
             <span className="artist chunk">{frontmatter.artist}</span>
             <span className="key chunk">
-              <p>Key of {key.toString()}</p>
+              <p>Key of {song.metadata.key}</p>
               <nav className="transposer">
-                <button onClick={() => goDown()}>
+                <button onClick={() => setSong(song.transposeDown())}>
                   <AiFillMinusCircle />
                 </button>
-                <button onClick={() => goUp()}>
+                <button onClick={() => setSong(song.transposeUp())}>
                   <AiFillPlusCircle />
                 </button>
               </nav>
