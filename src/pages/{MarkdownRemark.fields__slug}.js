@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import { graphql, Link } from "gatsby"
 import ChordSheetJS from "chordsheetjs"
+import { createCP } from "simplechordpro"
 import Layout from "../components/layout"
 import Scroller from "../components/scroller"
 import { AiFillPlusCircle, AiFillMinusCircle } from "react-icons/ai"
@@ -8,16 +9,11 @@ import { AiFillPlusCircle, AiFillMinusCircle } from "react-icons/ai"
 export default function Song({ data }) {
   const { markdownRemark } = data
   const { frontmatter, rawMarkdownBody } = markdownRemark
-  let parser
-
-  if (frontmatter.format === "cp") {
-    parser = new ChordSheetJS.ChordProParser()
-  } else {
-    parser = new ChordSheetJS.UltimateGuitarParser()
-  }
+  const chordProSong = createCP(rawMarkdownBody)
+  const parser = new ChordSheetJS.ChordProParser()
 
   const [song, setSong] = useState(
-    parser.parse(rawMarkdownBody).setKey(frontmatter.key)
+    parser.parse(chordProSong).setKey(frontmatter.key)
   )
 
   const formatter = new ChordSheetJS.HtmlDivFormatter()
