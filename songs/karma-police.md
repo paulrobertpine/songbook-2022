@@ -22,7 +22,7 @@ And [D]we have [G]crashed her [C]pa[C/B]  -  [Am]rty[Am][Bm][D]
 [C]  This is [D]what you'll [G]get
 When you [Bm]mess with [C]us[C][Bm][D]
 
-[Am]   Kar[D/F#]ma Po[Em]lice, I've [G]given all I [Am]can
+[Am]Kar[D/F#]ma Po[Em]lice, I've [G]given all I [Am]can
 It's [F]not e[Em]nough, I've [G]given all I [Am]can
 But [D]we're still [G]on the [C]pa[C/B]y - [Am]roll[Am][Bm][D]
 
@@ -36,14 +36,12 @@ I [D]lost my[G]self, I [D]lost my[E]self[E]
 [Bm] Phew, for a [D]minute [G]there
 I [D]lost my[G]self, I [D]lost my[E]self[E]
 
-| [Bm] [D] | [G] [D] |
-| [G]  [D] | [E] |
+|[Bm]/ / [D]/ / |[G]/ / [D] / /|[G]/ / [D]/ / |[E]/ / / / |
 
 [Bm]   For a [D]minute [G]there
 I [D]lost my[G]self, I [D]lost my[E]self[E]
 [Bm] Phew, for a [D]minute [G]there
 I [D]lost my[G]self, I [D]lost my[E]self[E]
 
-| [Bm] [D] | [G] [D] |
-| [G]  [D] | [E] |
+|[Bm]/ / [D]/ / |[G]/ / [D] / /|[G]/ / [D]/ / |[E]/ / / / |
 (x3)

@@ -1,6 +1,7 @@
 ---
 title: "I Can't Feel My Face"
 artist: "The Weeknd"
+key: Am
 ---
 
 G F Am
@@ -36,6 +37,3 @@ And she'll always get the best of me, the worst is yet to come.
 All the misery was necessary when we're deep in love.
        Am
 This I know, girl, this I know.
-
-
-
