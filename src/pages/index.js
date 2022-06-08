@@ -69,7 +69,7 @@ export default function Home({ data }) {
             <span id="filter-search" className="chunk">
               <input
                 type="text"
-                placeholder="title or artist"
+                placeholder="🔍 Search title and artist"
                 value={search}
                 onChange={(e) => searchSongs(e.target.value)}
               />
