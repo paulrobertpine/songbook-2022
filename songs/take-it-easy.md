@@ -2,11 +2,10 @@
 title: Take It Easy
 artist: The Eagles
 key: G
-youtube: LfeNhwnO8hw
+youtube: 32Oc2d_3yEk
 ---
 
-[Intro]
-G Am7/G D7sus4/G x2
+|[G]/ / / / |[Am7/G]/ / [D7sus4/G]/ / |x2
 
 [Verse]
 Well I'm a [G]runnin' down the road try'n to loosen my load
@@ -19,7 +18,7 @@ Take it e[Em]asy, take it e[C]as[G]y
 Don't let the [Am]sound of your own [C]wheels drive you c[Em]razy
 Lighten u[C]p while you still [G]can
 Don't even [C]try to underst[G]and
-Just find a [Am]place to make your s[C]tand,  and take it e[G]asy
+Just find a [Am]place to make your s[C]tand, and take it e[G]asy
 
 [Verse]
 Well, I'm a s[G]tandin' on a corner in Winslow, Arizona
@@ -43,7 +42,7 @@ Got a world of trouble [D]on my [Am]mind
 [G]Lookin' for a lover who [D]won't blow my cover, she's [C]so hard to f[G]ind
 
 [Chorus]
-Take it e[Em]asy,  take it e[C]as[G]y
+Take it e[Em]asy, take it e[C]as[G]y
 Don't let the [Am]sound of your own [C]wheels make you c[Em]razy
 Come on [C]ba[G]by, don't say [C]may[G]be
 I gotta [Am]know of your sweet [C]love is gonna [G]save me
