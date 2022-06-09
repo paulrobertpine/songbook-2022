@@ -5,19 +5,26 @@
   src: url("../fonts/rubik-regular.woff2") format("woff2");
 }
 
-// @font-face {
-//   font-family: "rubik";
-//   font-weight: 500;
-//   src: url("../fonts/rubik-medium.woff2") format("woff2");
-// }
-
 @font-face {
   font-family: "rubik";
   font-weight: bold;
   src: url("../fonts/rubik-medium.woff2") format("woff2");
 }
 
-$font-main: rubik, sans-serif;
+@font-face {
+  font-family: "charter";
+  font-weight: normal;
+  src: url("../fonts/charter_regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "charter";
+  font-weight: bold;
+  src: url("../fonts/charter_bold.woff2") format("woff2");
+}
+
+$font-main: rubic, sans-serif;
+$font-lyrics: charter, serif;
 
 // colours
 $clr-primary: hsl(216, 71%, 39%);
