@@ -57,7 +57,7 @@ export default function Home({ data }) {
             </h1>
 
             <span id="song-list-control" className="chunk">
-              {filteredSongs.length} Songs
+              <span>{filteredSongs.length} Songs</span>
               <button onClick={() => setShuffled(shuffled + 1)}>
                 <MdChangeCircle />
               </button>
@@ -69,7 +69,7 @@ export default function Home({ data }) {
             <span id="filter-search" className="chunk">
               <input
                 type="text"
-                placeholder="🔍 Search title and artist"
+                placeholder="🔍 Search title or artist"
                 value={search}
                 onChange={(e) => searchSongs(e.target.value)}
               />
