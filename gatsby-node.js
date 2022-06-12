@@ -21,5 +21,10 @@ exports.onCreateWebpackConfig = ({ actions }) => {
         fs: false,
       },
     },
+    resolve: {
+      alias: {
+        handlebars: "handlebars/dist/handlebars.min.js",
+      },
+    },
   })
 }
