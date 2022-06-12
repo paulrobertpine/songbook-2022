@@ -1,10 +1,11 @@
 ---
 title: Shady Grove
 artist: Doc Watson
+key: Dm
 ---
 
-[Dm][C][Dm][F][C][Dm]
-[Dm][C][Dm][F][C][Dm]
+[Dm][c][Dm][f][C][dm]
+[Dm][c][Dm][f][C][dm]
 
 [Dm]Shady Grove, [C]my little love
 [Dm]Shady Grove I say
@@ -14,15 +15,15 @@ artist: Doc Watson
 [Dm]Cheeks as red as a [C]blooming rose
 [Dm]And eyes are the prettiest brown
 [F]She's the darling [C]of my heart
-[C]Sweetest little girl in  [Dm]town
+[C]Sweetest little girl in [Dm]town
 
 [Dm]Shady Grove, [C]my little love
 [Dm]Shady Grove I say
 [F]Shady Grove, [C]my little love
 [C]I'm bound to go a[Dm]way
 
-[Dm][C][Dm][F][C][Dm]
-[Dm][C][Dm][F][C][Dm]
+[Dm][c][Dm][f][C][dm]
+[Dm][c][Dm][f][C][dm]
 
 [Dm]I wish I had a [C]big fine horse
 And [Dm]corn to feed him on
@@ -34,8 +35,8 @@ And [F]Shady Grove to [C]stay at home
 [F]Shady Grove, [C]my little love
 [C]I'm bound to go a[Dm]way
 
-[Dm][C][Dm][F][C][Dm]
-[Dm][C][Dm][F][C][Dm]
+[Dm][c][Dm][f][C][dm]
+[Dm][c][Dm][f][C][dm]
 
 [Dm]Went to see my [C]Shady Grove
 She was [Dm]standing in the door
@@ -47,21 +48,21 @@ Her [F]shoes and stockin's [C]in her hand
 [F]Shady Grove, [C]my little love
 I'm bound to go a[Dm]way
 
-[Dm][C][Dm][F][C][Dm]
-[Dm][C][Dm][F][C][Dm]
+[Dm][c][Dm][f][C][dm]
+[Dm][c][Dm][f][C][dm]
 
 [Dm]When I was [C]a little boy
 I [Dm]wanted a Barlow knife
 And [F]now I want little Shady Grove
-To [C]say she'll be my  [Dm]wife
+To [C]say she'll be my [Dm]wife
 
 [Dm]Shady Grove, [C]my little love
 [Dm]Shady Grove I say
 [F]Shady Grove, [C]my little love
 [C]I'm bound to go a[Dm]way
 
-[Dm][C][Dm][F][C][Dm]
-[Dm][C][Dm][F][C][Dm]
+[Dm][c][Dm][f][C][dm]
+[Dm][c][Dm][f][C][dm]
 
 [Dm]Kiss from pretty little [C]Shady Grove
 Is [Dm]sweet as brandy wine
@@ -73,8 +74,8 @@ And there [F]ain't no girl in [C]this old world
 [F]Shady Grove, [C]my little love
 [C]I'm bound to go a[Dm]way
 
-[Dm][C][Dm][F][C][Dm]
-[Dm][C][Dm][F][C][Dm]
+[Dm][c][Dm][f][C][dm]
+[Dm][c][Dm][f][C][dm]
 
 [Additional Verses]
 
