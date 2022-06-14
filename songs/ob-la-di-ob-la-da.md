@@ -1,8 +1,10 @@
 ---
 title: Ob-la-di Ob-la-da
 artist: The Beatles
+key: G
 ---
-Intro: |G   |G   |G   |G   ||
+G
+Intro
 
 G                           D
 Desmond has a borrow in the market place,
@@ -14,11 +16,11 @@ Desmond says to Molly, girl, I like your face
 And Molly says this as she takes him by the hand,
 
 Chorus:
-(G)                           D   Em7
+G                           D   Em7
 Ob-La-Di, Ob-La-Da, life goes on__bra.
 G               D         G
 La-la how their life goes on.
-(G)                           D   Em7
+G                           D   Em7
 Ob-La-Di, Ob-La-Da, life goes on__bra.
 G               D         G
 La-la how their life goes on.
@@ -33,11 +35,11 @@ Takes it back to Molly waiting at the door.
 And as he gives it to her she begins to sing,
 
 Chorus
-(G)                           D   Em7
+G                           D   Em7
 Ob-La-Di, Ob-La-Da, life goes on__bra.
 G               D         G
 La-la how their life goes on.
-(G)                           D   Em7
+G                           D   Em7
 Ob-La-Di, Ob-La-Da, life goes on__bra.
 G               D         G
 La-la how their life goes on.
@@ -59,11 +61,11 @@ Molly stays at home and does her pretty face
 And in the evening she still sings it with the band.
 
 Chorus:
-(G)                           D   Em7
+G                           D   Em7
 Ob-La-Di, Ob-La-Da, life goes on__bra.
 G               D         G
 La-la how their life goes on.
-(G)                           D   Em7
+G                           D   Em7
 Ob-La-Di, Ob-La-Da, life goes on__bra.
 G               D         G
 La-la how their life goes on.
@@ -84,11 +86,11 @@ Desmond stays at home and does his pretty face
            G               D               G
 And in the evening she's a singer with the band.
 
-(G)                           D   Em7
+G                           D   Em7
 Ob-La-Di, Ob-La-Da, life goes on__bra.
 G               D         G
 La-la how their life goes on.
-(G)                           D   Em7
+G                           D   Em7
 Ob-La-Di, Ob-La-Da, life goes on__bra.
 G               D         Em7
 La-la how their life goes on.
