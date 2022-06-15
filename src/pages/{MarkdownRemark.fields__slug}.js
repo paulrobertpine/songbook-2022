@@ -4,11 +4,12 @@ import ChordSheetJS from "chordsheetjs"
 import { createCP } from "simplechordpro"
 import Layout from "../components/layout"
 import Scroller from "../components/scroller"
+import Video from "../components/video"
 import { AiFillPlusCircle, AiFillMinusCircle } from "react-icons/ai"
 
 export default function Song({ data }) {
-  const { markdownRemark } = data
-  const { frontmatter, rawMarkdownBody } = markdownRemark
+
+  const { frontmatter, rawMarkdownBody } = data.markdownRemark
   const chordProSong = createCP(rawMarkdownBody)
   const parser = new ChordSheetJS.ChordProParser()
 
@@ -47,31 +48,11 @@ export default function Song({ data }) {
           className="song-content reading"
           dangerouslySetInnerHTML={{ __html: disp }}
         />
-        <YouTube video={frontmatter.youtube} />
+        {/* <YouTube video={frontmatter.youtube}/> */}
+        <Video url={frontmatter.youtube} title={frontmatter.title} />
       </article>
     </Layout>
   )
-}
-
-function YouTube({ video }) {
-  if (video) {
-    const embedURL = "https://www.youtube.com/embed/" + video
-    return (
-      <div className="youtube">
-        <iframe
-          title="YouTube"
-          width="700"
-          height="350"
-          src={embedURL}
-          frameBorder="0"
-          allow="autoplay; encrypted-media"
-          allowFullScreen
-        />
-      </div>
-    )
-  } else {
-    return ""
-  }
 }
 
 export const pageQuery = graphql`
@@ -82,7 +63,6 @@ export const pageQuery = graphql`
         key
         artist
         youtube
-        format
       }
       rawMarkdownBody
     }
