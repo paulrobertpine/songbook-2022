@@ -48,7 +48,6 @@ export default function Song({ data }) {
           className="song-content reading"
           dangerouslySetInnerHTML={{ __html: disp }}
         />
-        {/* <YouTube video={frontmatter.youtube}/> */}
         <Video url={frontmatter.youtube} title={frontmatter.title} />
       </article>
     </Layout>
