@@ -1,25 +1,19 @@
-:root {
-  --font-size--small: calc((16 / 16) * 1rem);
-  --font-size--medium: calc((18 / 16) * 1rem);
-  --font-size--large: calc((20 / 16) * 1rem);
-}
-
 html {
-  font-size: var(--font-size--small);
+  font-size: calc(16px + 4 * ((100vw - 320px) / 680));
 
-  @include medium {
-    font-size: var(--font-size--medium);
+  @include small {
+    font-size: 16px;  
   }
 
   @include large {
-    font-size: var(--font-size--large);
+    font-size: 22px;
   }
 }
 
 body {
   font-family: $font-main;
-  font-weight: normal;
-  line-height: 1.5rem;
+  font-weight: 300;
+  line-height: 1.5;
 }
 
 .container {
@@ -30,8 +24,6 @@ body {
 h1.fancy {
   color: $clr-accent;
   text-shadow: 0.1rem 0.1rem 0 $clr-primary;
-  font-size: 2rem;
-  line-height: 1.2;
   margin: 0 0 1rem 0;
 
   a {
