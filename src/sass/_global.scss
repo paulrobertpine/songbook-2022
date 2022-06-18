@@ -12,7 +12,6 @@ html {
 
 body {
   font-family: $font-main;
-  font-weight: 300;
   line-height: 1.5;
 }
 
@@ -25,6 +24,7 @@ h1.fancy {
   color: $clr-accent;
   text-shadow: 0.1rem 0.1rem 0 $clr-primary;
   margin: 0 0 1rem 0;
+  line-height: 1;
 
   a {
     text-decoration: none;

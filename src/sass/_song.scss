@@ -18,6 +18,7 @@
 
       nav.transposer {
         display: flex;
+
         button {
           font-size: 1.5rem;
           padding: 0 0 0 1rem;
@@ -30,7 +31,7 @@
     padding: 1rem;
 
     .paragraph {
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
 
       .row {
         display: flex;
@@ -39,7 +40,6 @@
 
         .column {
           margin-right: 0.1rem;
-          // font-size: 1.1rem;
 
           .chord {
             color: $clr-primary;
