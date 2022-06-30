@@ -1,14 +1,13 @@
 ---
-title: True Love waits
+title: True Love Waits
 artist: Radiohead
 key: C
 ---
+
 C     C    C/B     C/B
-.
+intro
 Am    Am   Abadd9  Abadd9
-.
- 
- 
+intro
 
 C       C           C/B   C/B
    I'll drown my beliefs
