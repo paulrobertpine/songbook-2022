@@ -3,7 +3,7 @@ title: Irene Goodnight
 artist: trad
 key: G
 ---
-3/4
+3/4 time
 
 G          D       D7         G
 Irene good-night, Irene good-night 
