@@ -6,6 +6,7 @@
 
       #song-list-control {
         @include flex;
+        margin: 0;
 
         button,
         span {
@@ -24,6 +25,7 @@
         width: 100%;
         border: 1px solid $clr-primary;
         padding: 0 0.5rem;
+        margin: 0;
 
         input {
           border: 0;

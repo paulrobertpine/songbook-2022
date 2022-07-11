@@ -52,9 +52,6 @@ export default function Home({ data }) {
       <article id="home">
         <header className="page-header">
           <section className="container">
-            <h1 className="fancy chunk">
-              <Link to="/">{title}</Link>
-            </h1>
 
             <span id="song-list-control" className="chunk">
               <span>{filteredSongs.length} Songs</span>

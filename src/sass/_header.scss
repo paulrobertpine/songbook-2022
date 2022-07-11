@@ -1,24 +1,31 @@
 #site-header {
   background-color: $clr-primary;
-  // position: fixed;
-  // width: 100vw;
 
   section.container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.5rem 1rem;
+    @include flex;
+    padding: .5rem;
 
     a#site-logo {
-      display: inline-block;
+      @include flex;
       margin: 0;
       line-height: 0;
+      text-decoration: none;
 
       svg {
         width: 2.5rem;
         height: auto;
         fill: $clr-accent;
+        margin-right: 1rem;
       }
+
+      h1 {
+        margin: 0;
+      }
+    }
+
+    .subtitle {
+      font-weight: bold;
+      color: $clr-accent;
     }
   }
 }

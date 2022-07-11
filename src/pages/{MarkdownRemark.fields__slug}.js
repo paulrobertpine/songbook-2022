@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import ChordSheetJS from "chordsheetjs"
 import { createCP } from "simplechordpro"
 import Layout from "../components/layout"
@@ -21,15 +21,11 @@ export default function Song({ data }) {
   const disp = formatter.format(song)
 
   return (
-    <Layout title={frontmatter.title}>
+    <Layout title={frontmatter.title} subtitle={frontmatter.artist}>
       <article className="song">
         <header className="page-header">
           <section className="container">
-            <h1 className="fancy chunk">
-              <Link to="/">{frontmatter.title}</Link>
-            </h1>
-            <span className="artist chunk">{frontmatter.artist}</span>
-            <span className="key chunk">
+            <span className="key">
               <p>Key of {song.metadata.key}</p>
               <nav className="transposer">
                 <button onClick={() => setSong(song.transposeDown())}>

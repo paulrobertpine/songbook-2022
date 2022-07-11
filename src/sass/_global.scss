@@ -37,6 +37,7 @@ svg {
 
   &:hover {
     fill: lighten($clr-accent, 5%);
+    cursor: pointer;
   }
 }
 
@@ -49,7 +50,7 @@ button {
 }
 
 .page-header {
-  padding: 1rem 1rem 0;
+  padding: 0.5rem;
   background-color: $clr-bg;
   color: $clr-primary;
   border-bottom: 1px solid $clr-accent;
