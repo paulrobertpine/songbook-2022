@@ -1,25 +1,33 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import * as Scroll from "react-scroll"
-import { IoArrowDownCircle } from "react-icons/io5"
-import useWindowDimensions from "./window-dimensions"
-
+import { MdOutlinePlayCircleFilled, MdPauseCircleFilled } from 'react-icons/md'
 let scroll = Scroll.animateScroll
 
-function scrollPage(vh) {
-  const buffer = 100 //pixels
-  scroll.scrollMore(vh - buffer, {
-    duration: vh * 2,
-    smooth: "linear",
-  })
-}
-
 export default function Scroller() {
-  const { height } = useWindowDimensions()
+  const [isScrolling, setIsScrolling] = useState(false)
+  const [scrollSpeed, setScrollSpeed] = useState(50) //px per 100ms
+
+  console.log(scrollSpeed)
+
+  function toggleScrolling() {
+    isScrolling ? setIsScrolling(false) : setIsScrolling(true)
+  }
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (isScrolling) {
+        scroll.scrollMore(scrollSpeed, {
+          smooth: "linear",
+        })
+      }
+    }, 100);
+    return () => clearInterval(interval);
+  }, [isScrolling, scrollSpeed]);
 
   return (
     <nav className="scroll-control" id="scroller">
-      <button onClick={() => scrollPage(height)}>
-        <IoArrowDownCircle />
+      <button onClick={() => toggleScrolling()}>
+        {isScrolling ? <MdPauseCircleFilled /> : <MdOutlinePlayCircleFilled />}
       </button>
     </nav>
   )
