@@ -3,7 +3,7 @@
 
   section.container {
     @include flex;
-    padding: .5rem;
+    padding: 0.5rem;
 
     a#site-logo {
       @include flex;

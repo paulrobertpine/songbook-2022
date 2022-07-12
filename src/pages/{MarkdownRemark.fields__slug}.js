@@ -25,9 +25,20 @@ export default function Song({ data }) {
       <article className="song">
         <header className="page-header">
           <section className="container">
-            <span className="key">
+            <span className="widget chunk">
               <p>Key of {song.metadata.key}</p>
               <nav className="transposer">
+                <button onClick={() => setSong(song.transposeDown())}>
+                  <AiFillMinusCircle />
+                </button>
+                <button onClick={() => setSong(song.transposeUp())}>
+                  <AiFillPlusCircle />
+                </button>
+              </nav>
+            </span>
+            <span className="widget chunk">
+              <nav className="autoscroll">
+                <p>autoscroll</p>
                 <button onClick={() => setSong(song.transposeDown())}>
                   <AiFillMinusCircle />
                 </button>
@@ -46,7 +57,7 @@ export default function Song({ data }) {
         />
         <Video url={frontmatter.youtube} title={frontmatter.title} />
       </article>
-    </Layout>
+    </Layout >
   )
 }
 

@@ -4,24 +4,9 @@
       @include flex;
     }
 
-    span.key {
+    nav.transposer,
+    nav.autoscroll {
       display: flex;
-      align-items: center;
-      margin: 0;
-
-      p {
-        margin: 0;
-        min-width: 5rem;
-      }
-
-      nav.transposer {
-        display: flex;
-
-        button {
-          font-size: 1.5rem;
-          padding: 0 0 0 1rem;
-        }
-      }
     }
   }
 
@@ -47,7 +32,7 @@
 
             &::after {
               // this is needed so empty chords don't mess up layout
-              content: ".";
+              content: '.';
               color: transparent;
             }
           }
