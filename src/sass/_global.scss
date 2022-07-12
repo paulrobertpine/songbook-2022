@@ -61,7 +61,7 @@ button {
   font-weight: bold;
 }
 
-span.widget {
+.widget {
   @include flex;
 
   p {

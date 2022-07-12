@@ -4,6 +4,7 @@ import ChordSheetJS from "chordsheetjs"
 import { createCP } from "simplechordpro"
 import Layout from "../components/layout"
 import Scroller from "../components/scroller"
+import AutoScroller from "../components/auto-scroller"
 import Video from "../components/video"
 import { AiFillPlusCircle, AiFillMinusCircle } from "react-icons/ai"
 
@@ -37,15 +38,7 @@ export default function Song({ data }) {
               </nav>
             </span>
             <span className="widget chunk">
-              <nav className="autoscroll">
-                <p>autoscroll</p>
-                <button onClick={() => setSong(song.transposeDown())}>
-                  <AiFillMinusCircle />
-                </button>
-                <button onClick={() => setSong(song.transposeUp())}>
-                  <AiFillPlusCircle />
-                </button>
-              </nav>
+              <AutoScroller />
             </span>
           </section>
           <Scroller />
