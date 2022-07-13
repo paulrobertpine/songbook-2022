@@ -4,14 +4,12 @@ artist: Guns N' Roses
 key: D
 ---
  
-[Intro]
- 
-| D   | D   | C   | C   | G   | G   | D   | D   |
-| D   | D   | C   | C   | G   | G   | D   | D   |
-| D   | D   | C   | C   | G   | G   | D   | D   |
- 
- 
-[Verse 1]
+Intro
+
+ D         C         G         D
+|////|////|////|////|////|////|////|////|
+
+Verse 1
  
 D
 She's got a smile that it seems to me
@@ -31,7 +29,7 @@ And if I stared too long
 I'd probably break down and cry
  
  
-[Chorus]
+Chorus
  
 A               C              D
 Whoa oh, sweet child o' mine
@@ -39,12 +37,12 @@ A               C              D
 Whoa, oh, oh, oh sweet love o' mine
  
  
-[Instrumental]
+Instrumental
+ D         C         G         D
+|////|////|////|////|////|////|////|////|
  
-| D   | D   | C   | C   | G   | G   | D   | D   |
  
- 
-[Verse 2]
+Verse 2
  
 D
 She's got eyes of the bluest skies
@@ -64,7 +62,7 @@ And pray for the thunder and rain
 To quietly pass me by
  
  
-[Chorus]
+Chorus
  
 A        C              D
 Whoa oh, oh, sweet child o' mine
@@ -72,13 +70,13 @@ A              C                D
 Whoa, oh, oh, oh sweet love o' mine
  
  
-[Instrumental]
+Instrumental
  
-| D   | D   | C   | C   | G   | G   | D   | D   |
-| D   | D   | C   | C   | G   | G   | D   | D   |
+ D         C         G         D
+|////|////|////|////|////|////|////|////|
  
  
-[Chorus]
+Chorus
  
 A               C              D
 Whoa oh, sweet child o' mine
@@ -89,24 +87,19 @@ Whoa oh, oh, oh sweet child o' mine
 A               C         D
 Ooooooooh sweet love o' mine
  
- 
-[Solo Part 1]
- 
-| Em    | C     | B7    | Am    |
-| Em    | C     | B7    | Am    |
-| Em    | C     | B7    | Am    |
-| Em    | C     | B7    | Am    | Am    |
+Solo Part 1
+
+ Em   C    B7   Am
+|////|////|////|////|
  
  
-[Solo Part 2]
- 
-| Em      | G       | A       | C   D G |
-| Em      | G       | A       | C   D G |
-| Em      | G       | A       | C   D G |
-| Em      | G       | A       | C   D G |
+Solo Part 2
+
+ Em   G    A    C DG
+|////|////|////|////|
  
  
-[Outro]
+Outro
  
 Em              G                   A                C  D G
 Where do we go, where do we go now, where do we go
@@ -120,7 +113,7 @@ Em              G        A                  C   D G
 Where do we go,  ohhhhh, where do we go now
 Em            G       A                  C   D G
 Where do we gooooooo, where do we go now
-Em               G      A                  (Fill)                   Em
+Em               G      A                                    Em
 Where do we goooo, ohhh where do we go now, now-now-now-now-now-now-now
-(Em)    G          A       C   D     E
+Em    G          A       C   D     E
 Sweet child, sweet chiiiiiiiiiild of mine
