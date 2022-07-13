@@ -2,7 +2,6 @@ import React from "react"
 import Link from "gatsby-link"
 import * as Scroll from "react-scroll"
 import { IoArrowUpCircle } from "react-icons/io5"
-
 let scroll = Scroll.animateScroll
 
 export default function Footer() {
@@ -13,7 +12,7 @@ export default function Footer() {
           © <Link to="/">Songbook</Link> {new Date().getFullYear()}
         </span>
 
-        <nav className="scroll-control chunk">
+        <nav className="widget chunk">
           <button onClick={() => scroll.scrollToTop()}>
             <IoArrowUpCircle />
           </button>

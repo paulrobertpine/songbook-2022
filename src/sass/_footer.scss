@@ -3,21 +3,17 @@
   color: $clr-accent;
   z-index: 5;
   position: relative;
-  padding: 1rem;
 
   section.container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    @include flex;
+    padding: 0.5rem;
 
     span a {
       color: $clr-accent;
     }
 
-    .scroll-control {
-      button {
-        font-size: 3rem;
-      }
-    }
+    // nav button {
+    //   font-size: 2rem;
+    // }
   }
 }

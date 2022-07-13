@@ -2,24 +2,28 @@ import React, { useState, useEffect } from "react"
 import * as Scroll from "react-scroll"
 import Slider from "rc-slider"
 import "rc-slider/assets/index.css"
-
 import { MdOutlinePlayCircleFilled, MdPauseCircleFilled } from "react-icons/md"
-let scroll = Scroll.animateScroll
+
+const scroll = Scroll.animateScroll
 
 export default function Scroller() {
   const [isScrolling, setIsScrolling] = useState(false)
   const [scrollSpeed, setScrollSpeed] = useState(25) //px per 100ms
 
-  console.log(scrollSpeed)
-
   function toggleScrolling() {
-    isScrolling ? setIsScrolling(false) : setIsScrolling(true)
+    if (isScrolling === true) {
+      setIsScrolling(false)
+    }
+    else {
+      setIsScrolling(true)
+    }
   }
 
   const handleSlider = e => {
     setScrollSpeed(e)
   }
 
+  // this one does the scrolling
   useEffect(() => {
     const interval = setInterval(() => {
       if (isScrolling) {
@@ -31,6 +35,22 @@ export default function Scroller() {
     return () => clearInterval(interval)
   }, [isScrolling, scrollSpeed])
 
+  // this one looks for keypress
+  useEffect(() => {
+    const keypress = e => {
+      if (e.key === "s") {
+        toggleScrolling()
+      }
+    }
+    // todo add keys for speed +/-
+
+    window.addEventListener("keypress", keypress);
+
+    return () => {
+      window.removeEventListener("keypress", keypress);
+    }
+  })
+
   return (
     <nav className="scroll-control" id="scroller">
       <Slider
@@ -38,7 +58,7 @@ export default function Scroller() {
         min={1}
         max={50}
         onChange={handleSlider}
-        defaultValue={25}
+        defaultValue={20}
       />
 
       <button onClick={() => toggleScrolling()}>
