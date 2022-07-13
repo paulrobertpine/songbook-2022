@@ -36,8 +36,9 @@ export default function Song({ data }) {
                 </button>
               </nav>
             </span>
+            <Scroller />
           </section>
-          <Scroller />
+
         </header>
 
         <section

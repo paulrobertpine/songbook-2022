@@ -60,7 +60,6 @@ export default function Scroller() {
         onChange={handleSlider}
         defaultValue={20}
       />
-
       <button onClick={() => toggleScrolling()}>
         {isScrolling ? <MdPauseCircleFilled /> : <MdOutlinePlayCircleFilled />}
       </button>

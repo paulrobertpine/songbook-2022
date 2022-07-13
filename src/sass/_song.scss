@@ -1,7 +1,8 @@
 .song {
   header {
     .container {
-      @include flex;
+      display: flex;
+      align-items: top;
     }
 
     nav.transposer,
@@ -50,6 +51,8 @@
     padding: 2rem;
     display: flex;
     justify-content: center;
+    z-index: 2;
+    position: relative;
 
     iframe {
       max-width: 100%;

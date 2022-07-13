@@ -1,7 +1,7 @@
 #site-footer {
   background-color: $clr-primary;
   color: $clr-accent;
-  z-index: 5;
+  z-index: 2;
   position: relative;
 
   section.container {
@@ -11,9 +11,5 @@
     span a {
       color: $clr-accent;
     }
-
-    // nav button {
-    //   font-size: 2rem;
-    // }
   }
 }
