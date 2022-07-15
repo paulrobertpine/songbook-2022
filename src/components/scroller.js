@@ -3,12 +3,21 @@ import * as Scroll from "react-scroll"
 import Slider from "rc-slider"
 import "rc-slider/assets/index.css"
 import { MdOutlinePlayCircleFilled, MdPauseCircleFilled } from "react-icons/md"
+// import { window } from "browser-monads"
 
 const scroll = Scroll.animateScroll
 
+// console.log("window.pageYOffset", window.pageYOffset)
+// console.log("window.innerHeight", window.innerHeight)
+// console.log("document.body.offsetHeight", document.body.offsetHeight)
+// console.log("scroller.offsetHeight", document.body.offsetHeight)
+
+
 export default function Scroller() {
   const [isScrolling, setIsScrolling] = useState(false)
-  const [scrollSpeed, setScrollSpeed] = useState(25) //px per 100ms
+  const [scrollSpeed, setScrollSpeed] = useState(15) //px per 100ms
+
+  console.log(scrollSpeed)
 
   function toggleScrolling() {
     if (isScrolling === true) {
@@ -58,7 +67,7 @@ export default function Scroller() {
         min={1}
         max={50}
         onChange={handleSlider}
-        defaultValue={20}
+        defaultValue={scrollSpeed}
       />
       <button onClick={() => toggleScrolling()}>
         {isScrolling ? <MdPauseCircleFilled /> : <MdOutlinePlayCircleFilled />}

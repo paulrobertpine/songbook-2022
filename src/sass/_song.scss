@@ -5,8 +5,7 @@
       align-items: top;
     }
 
-    nav.transposer,
-    nav.autoscroll {
+    nav.transposer {
       display: flex;
     }
   }
@@ -51,8 +50,6 @@
     padding: 2rem;
     display: flex;
     justify-content: center;
-    z-index: 2;
-    position: relative;
 
     iframe {
       max-width: 100%;
