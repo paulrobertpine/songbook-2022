@@ -3,32 +3,22 @@ import * as Scroll from "react-scroll"
 import Slider from "rc-slider"
 import "rc-slider/assets/index.css"
 import { MdOutlinePlayCircleFilled, MdPauseCircleFilled } from "react-icons/md"
-// import { window } from "browser-monads"
 
 const scroll = Scroll.animateScroll
 
-// console.log("window.pageYOffset", window.pageYOffset)
-// console.log("window.innerHeight", window.innerHeight)
-// console.log("document.body.offsetHeight", document.body.offsetHeight)
-// console.log("scroller.offsetHeight", document.body.offsetHeight)
-
-
 export default function Scroller() {
   const [isScrolling, setIsScrolling] = useState(false)
-  const [scrollSpeed, setScrollSpeed] = useState(15) //px per 100ms
-
-  console.log(scrollSpeed)
+  const [scrollSpeed, setScrollSpeed] = useState(10) //px per 100ms
 
   function toggleScrolling() {
     if (isScrolling === true) {
       setIsScrolling(false)
-    }
-    else {
+    } else {
       setIsScrolling(true)
     }
   }
 
-  const handleSlider = e => {
+  const handleSlider = (e) => {
     setScrollSpeed(e)
   }
 
@@ -46,24 +36,23 @@ export default function Scroller() {
 
   // this one looks for keypress
   useEffect(() => {
-    const keypress = e => {
+    const keypress = (e) => {
       if (e.key === "s") {
         toggleScrolling()
       }
     }
     // todo add keys for speed +/-
 
-    window.addEventListener("keypress", keypress);
+    window.addEventListener("keypress", keypress)
 
     return () => {
-      window.removeEventListener("keypress", keypress);
+      window.removeEventListener("keypress", keypress)
     }
   })
 
   return (
-    <nav className="scroll-control" id="scroller">
+    <nav id="scroller" className="widget chunk">
       <Slider
-        vertical
         min={1}
         max={50}
         onChange={handleSlider}

@@ -1,12 +1,14 @@
 .song {
   header {
-    .container {
-      display: flex;
-      align-items: top;
-    }
+    position: sticky;
+    top: 0;
 
-    nav.transposer {
-      display: flex;
+    .container {
+      @include flex;
+
+      nav.transposer {
+        @include flex;
+      }
     }
   }
 
@@ -32,7 +34,7 @@
 
             &::after {
               // this is needed so empty chords don't mess up layout
-              content: '.';
+              content: ".";
               color: transparent;
             }
           }
@@ -47,7 +49,7 @@
 
   .youtube {
     border-top: 1px solid $clr-accent;
-    padding: 2rem;
+    padding: 1rem 5rem;
     display: flex;
     justify-content: center;
 

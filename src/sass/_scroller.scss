@@ -1,20 +1,29 @@
 #scroller {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: fixed;
-  right: 1rem;
-  bottom: 2rem;
-  opacity: 0.5;
-  z-index: 1;
+  @include flex;
+  flex-grow: 1;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // margin-top: -3rem;
+  // padding: 0 1rem;
+  // border: 1px solid red;
+  // line-height: 0;
+  // text-align: right;
+  // position: sticky;
+  // top: 0;
+  // opacity: 0.5;
 
-  button {
-    font-size: 2.5rem;
-  }
+  // button {
+  //   display: inline;
+  //   line-height: 0;
+  //   font-size: 3rem;
+  // }
 
   .rc-slider {
-    min-height: 8rem;
-    margin-bottom: 0.5rem;
+    width: 3rem;
+    flex-grow: 1;
+    // min-height: 50vh;
+    // margin-bottom: 0.5rem;
 
     .rc-slider-track {
       background-color: $clr-accent;

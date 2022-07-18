@@ -1,19 +1,12 @@
 #site-footer {
   background-color: $clr-primary;
   color: $clr-accent;
-  z-index: 2;
-  position: relative;
 
   section.container {
     @include flex;
-    padding: 0.5rem;
 
     span a {
       color: $clr-accent;
-    }
-
-    button {
-      font-size: 2.5rem;
     }
   }
 }

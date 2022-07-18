@@ -2,7 +2,6 @@
   header {
     section.container {
       @include flex;
-      justify-content: space-between;
 
       #song-list-control {
         @include flex;
@@ -73,11 +72,11 @@
           font-size: 0.8rem;
 
           &::before {
-            content: '(';
+            content: "(";
           }
 
           &::after {
-            content: ')';
+            content: ")";
           }
         }
       }
