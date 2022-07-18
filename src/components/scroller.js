@@ -50,6 +50,24 @@ export default function Scroller() {
     }
   })
 
+  // this one handles stopping scrolling at the bottom
+  useEffect(() => {
+    const scrolly = (e) => {
+      const closeToBottom =
+        document.documentElement.offsetHeight - window.innerHeight - 5
+
+      if (window.scrollY > closeToBottom && isScrolling) {
+        toggleScrolling()
+      }
+    }
+
+    window.addEventListener("scroll", scrolly)
+
+    return () => {
+      window.removeEventListener("scroll", scrolly)
+    }
+  })
+
   return (
     <nav id="scroller" className="widget chunk">
       <Slider
