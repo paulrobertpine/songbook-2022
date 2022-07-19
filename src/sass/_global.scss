@@ -1,12 +1,12 @@
 html {
-  font-size: calc(16px + 4 * ((100vw - 320px) / 680));
+  font-size: $font-min;
 
-  @include small {
-    font-size: 16px;
+  @include breakpoint($container-min) {
+    @include fluid-type;
   }
 
-  @include large {
-    font-size: 22px;
+  @include breakpoint($container-max) {
+    font-size: $font-max;
   }
 }
 
@@ -27,6 +27,7 @@ h1.fancy {
   text-shadow: 0.1rem 0.1rem 0 darken($clr-primary, 20%);
   margin: 0 0 1rem 0;
   line-height: 1;
+  font-size: 1.4rem;
 
   a {
     text-decoration: none;

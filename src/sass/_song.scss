@@ -29,7 +29,6 @@
           .chord {
             color: $clr-primary;
             font-weight: 600;
-            font-size: 0.9rem;
             line-height: 1;
 
             &::after {
@@ -40,7 +39,7 @@
           }
 
           .lyrics {
-            // font-family: $font-lyrics;
+            font-size: 1.2rem;
           }
         }
       }
@@ -49,7 +48,7 @@
 
   .youtube {
     border-top: 1px solid $clr-accent;
-    padding: 1rem 5rem;
+    padding: 1rem;
     display: flex;
     justify-content: center;
 

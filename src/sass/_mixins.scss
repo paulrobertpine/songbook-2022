@@ -1,0 +1,52 @@
+@mixin breakpoint($width) {
+  @media only screen and (min-width: $width) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media only screen and (max-width: $breakpoint-small) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media only screen and (min-width: $breakpoint-med) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media only screen and (min-width: $breakpoint-lrg) {
+    @content;
+  }
+}
+
+// utils
+@mixin spacer {
+  margin: 1rem;
+}
+
+@mixin flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+// see https://css-tricks.com/snippets/css/fluid-typography/
+// font-size: calc(#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
+@mixin fluid-type {
+  font-size: calc(
+    #{$font-min} + #{strip-unit($font-max - $font-min)} *
+      (
+        (100vw - #{$container-min}) / #{strip-unit(
+            $container-max - $container-min
+          )}
+      )
+  );
+}
+
+@function strip-unit($value) {
+  @return calc($value / 1px);
+}

@@ -1,6 +1,8 @@
+// fonts
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
-
 $font-main: "Source Sans Pro", sans-serif;
+$font-min: 16px;
+$font-max: 20px;
 
 // colours
 $clr-primary: hsl(216, 71%, 39%);
@@ -12,32 +14,5 @@ $breakpoint-small: 350px;
 $breakpoint-med: 700px;
 $breakpoint-lrg: 1200px;
 
-@mixin small {
-  @media only screen and (max-width: $breakpoint-small) {
-    @content;
-  }
-}
-
-@mixin medium {
-  @media only screen and (min-width: $breakpoint-med) {
-    @content;
-  }
-}
-
-@mixin large {
-  @media only screen and (min-width: $breakpoint-lrg) {
-    @content;
-  }
-}
-
-// utils
-@mixin spacer {
-  margin: 1rem;
-}
-
-@mixin flex {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-}
+$container-min: $breakpoint-small;
+$container-max: $breakpoint-lrg;

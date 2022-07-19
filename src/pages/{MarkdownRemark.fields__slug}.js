@@ -4,7 +4,7 @@ import ChordSheetJS from "chordsheetjs"
 import { createCP } from "simplechordpro"
 import Layout from "../components/layout"
 import Scroller from "../components/scroller"
-// import Video from "../components/video"
+import Video from "../components/video"
 import { AiFillPlusCircle, AiFillMinusCircle } from "react-icons/ai"
 
 export default function Song({ data }) {
@@ -43,7 +43,7 @@ export default function Song({ data }) {
           className="song-content reading"
           dangerouslySetInnerHTML={{ __html: disp }}
         />
-        {/* <Video url={frontmatter.youtube} title={frontmatter.title} /> */}
+        <Video url={frontmatter.youtube} title={frontmatter.title} />
       </article>
     </Layout>
   )
