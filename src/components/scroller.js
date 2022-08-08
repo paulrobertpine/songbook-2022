@@ -8,7 +8,9 @@ const scroll = Scroll.animateScroll
 
 export default function Scroller() {
   const [isScrolling, setIsScrolling] = useState(false)
-  const [scrollSpeed, setScrollSpeed] = useState(10) //px per 100ms
+  const [scrollSpeed, setScrollSpeed] = useState(3) //px per 100ms
+
+  // console.log(scrollSpeed)
 
   function toggleScrolling() {
     if (isScrolling === true) {
@@ -72,7 +74,17 @@ export default function Scroller() {
     <nav id="scroller" className="widget chunk">
       <Slider
         min={1}
-        max={50}
+        max={20}
+        marks={{
+          1: "1",
+          2: "2",
+          3: "3",
+          4: "4",
+          5: "5",
+          10: "10",
+          20: "20",
+        }}
+        // step={null}
         onChange={handleSlider}
         defaultValue={scrollSpeed}
       />
