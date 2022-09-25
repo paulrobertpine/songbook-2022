@@ -4,64 +4,46 @@ artist: Neutral Milk Hotel
 key: F
 youtube: jsM7XS-2X50
 ---
-
 [Intro]
- 
-F  Bb  F  C  Bb
-F  Bb  F  C  Bb
- 
+
+[F]  [Bb]  [F]  [C]  [Bb]
+[F]  [Bb]  [F]  [C]  [Bb]
+
 [Verse]
- 
-F
-  When you were young
-             C              Bb       F
-You were the king of carrot flowers
-                          C                    Bb     C
-And how you built a tower tumbling through the trees
-                          Bb                   F
-In holy rattlesnakes that fell all around your feet
- 
-Bb  F  C  Bb
- 
- 
+
+[F]When you were young
+You were the [C]king of carrot [Bb]flowers[F]
+And how you built a tower [C]tumbling through the [Bb]trees[C]
+In holy rattlesnakes that [Bb]fell all around your [F]feet
+
+[Bb] [F][C][Bb]
+
 [Chorus]
- 
-F                                       C            Bb        F
-  And your mom would stick a fork right into daddy's shoulder
-                                C              Bb      C
-And dad would throw the garbage all across the floor
-                               Bb                       F
-As we would lay and learn what each other's bodies were for
- 
-Bb  F  C  Bb
- 
-F  Bb  F  C Bb
- 
- 
+
+[F]  And your mom would stick a fork right [C]into daddy's [Bb]shoulder[F]
+And dad would throw the garbage [C]all across the [Bb]floor[C]
+As we would lay and learn what [Bb]each other's bodies were [F]for
+
+ [Bb]  [F]  [C]  [Bb]
+[F] [Bb][F][C][Bb]
+
 [Verse]
- 
-F
-  And this is the room 
-         C                   Bb        F
-One afternoon I knew I could love you
-                         C              Bb    C
-And from above you how I sank into your soul
-                             Bb              F
-Into that secret place where no one dares to go
- 
-Bb  F  C  Bb
- 
- 
+
+[F]And this is the room
+One after[C]noon I knew I could [Bb]love you[F]
+And from above you how I [C]sank into your [Bb]soul[C]
+Into that secret place where [Bb]no one dares to [F]go
+
+[Bb] [F][C][Bb]
+
 [Chorus]
- 
-F                                      C          Bb        F
-  And your mom would drink until she was no longer speaking
-                               C                 Bb   C
-And dad would dream of all the different ways to die
-                            Bb               F
-Each one a little more than he could dare to try
- 
-Bb  F  C  Bb
-F  Bb  F  C Bb
-F  Bb  F  C  Bb
-F  Bb  F  C  Bb  F
+
+[F]  And your mom would drink until she wa[C]s no longer[Bb] speaking[F]
+And dad would dream of all the [C]different ways to [Bb]die[C]
+Each one a little more than [Bb]he could dare to [F]try
+
+[Bb]  [F]  [C]  [Bb]
+[F]  [Bb]  [F]  [C]  [Bb]
+[F]  [Bb]  [F]  [C]  [Bb]
+[F]  [Bb]  [F]  [C]  [Bb] [F]
+
