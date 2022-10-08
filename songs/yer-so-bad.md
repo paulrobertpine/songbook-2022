@@ -26,10 +26,10 @@ but no[Em]t me[C] ba[G]by[D], I've got yo[Em]u to[C] sa[G]ve me[D]
   in a [G]world [D]gone [C]mad, [G]yer [D]so [C]bad[D]
 
 SOLO
-| Am | D | G | Am |
-| Am | D | G | % |
-| Am | D | G | Am |
-| Am | D | G | % |
+| [Am] | [D] | [G] | [Am] |
+| [Am] | [D] | [G] | [G] |
+| [Am] | [D] | [G] | [Am] |
+| [Am] | [D] | [G] | [G] |
 
    but n[Em]ot m[C]e b[G]ab[D]y, I've got y[Em]ou t[C]o s[G]ave m[D]e
    oh y[G]er s[D]o b[C]ad, b[G]est thing I e[D]ver h[C]ad
@@ -38,9 +38,5 @@ SOLO
  oh[G] yer[D] so[C] bad,[G] best thing I[D] ever[C]had
   in a[G] world[D] gone[C] mad,[G] yer[D] so[C]bad
 
-
-
-
-[CODA]1 + 2 + 3
-| D | % | G Gsus4 |     G   G
+| D | D | G Gsus4 |     G   G
 
