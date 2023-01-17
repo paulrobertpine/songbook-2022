@@ -9,9 +9,9 @@ capo 4
 
 Intro:
 D  A  G
-
+ 
 D  Am7  G
-
+ 
 D         A     G
 Here you come again
 D               A            G
@@ -22,7 +22,7 @@ Bm                      Em
 Just like you've done before
      G                           A
 And wrap my heart 'round your little finger
-
+ 
 D         A     G
 Here you come again
 D               A               G
@@ -35,7 +35,7 @@ And lie those pretty lies
 And pretty soon I'm wondering' how I
           A
  came to doubt you
-
+ 
 Dm                    C
 All you got to do is smile that smile
      Bb                F
@@ -46,7 +46,7 @@ Just leave it up to you and in a little
 while
          E                       A
 You're messin' up my mind and fillin' up my senses
-
+ 
 D         A     G
 Here you come again
    D              A          G
@@ -61,9 +61,9 @@ Is here you come again
 And here I go
         D
 Here I go
-
+ 
 D  A  G  D  A  G  Bm  Em  Bm  Em  G  A  D  A  G  D
-
+ 
 Dm                    C
 All you got to do is smile that smile
      Bb                F
@@ -74,7 +74,7 @@ Just leave it up to you and in a little
 while
          E                      A
 You're messin' up my mind and fillin' up my senses
-
+ 
 D          A    G
 Here you come again
 D                    A            G
