@@ -2,7 +2,6 @@
 title: 50 Ways
 artist: Paul Simon
 key: Em
-format: cp
 ---
 
 [Em]"The problem is [D]all inside your[Cmaj7] head", she said to [B7]me,
