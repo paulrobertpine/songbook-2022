@@ -1,21 +1,17 @@
-import React, { useState } from "react"
-import { graphql, Link } from "gatsby"
-import { MdChangeCircle, MdClear, MdSortByAlpha } from "react-icons/md"
-import Layout from "../components/layout"
-const title = "Songbook"
+import React, { useState } from 'react'
+import { graphql, Link } from 'gatsby'
+import { MdChangeCircle, MdClear, MdSortByAlpha } from 'react-icons/md'
+import Layout from '../components/layout'
+const title = 'Songbook'
 
 export default function Home({ data }) {
   const { allMarkdownRemark } = data
   const posts = allMarkdownRemark.nodes
-  const [search, setSearch] = useState("")
+  const [search, setSearch] = useState('')
   const [shuffled, setShuffled] = useState(1)
 
   let filteredSongs = posts.filter((post) => {
-    return (
-      post.frontmatter.title.toLowerCase().indexOf(search.toLowerCase()) !==
-      -1 ||
-      post.frontmatter.artist.toLowerCase().indexOf(search.toLowerCase()) !== -1
-    )
+    return post.frontmatter.title.toLowerCase().indexOf(search.toLowerCase()) !== -1 || post.frontmatter.artist.toLowerCase().indexOf(search.toLowerCase()) !== -1
   })
 
   if (shuffled > 0) {
@@ -52,34 +48,26 @@ export default function Home({ data }) {
       <article id="home">
         <header className="page-header">
           <section className="container">
-
             <span id="song-list-control" className="widget chunk">
               <p>{filteredSongs.length} Songs</p>
               <button onClick={() => setShuffled(shuffled + 1)}>
                 <MdChangeCircle />
+                <span>Shuffle</span>
               </button>
               <button onClick={() => setShuffled(0)}>
                 <MdSortByAlpha />
+                <span>Unshuffle</span>
               </button>
             </span>
 
             <span id="filter-search" className="chunk">
-              <input
-                type="text"
-                placeholder="🔍 Search title or artist"
-                value={search}
-                onChange={(e) => searchSongs(e.target.value)}
-              />
-              <button onClick={() => setSearch("")}>
-                {search && <MdClear />}
-              </button>
+              <input type="text" placeholder="🔍 Search title or artist" value={search} onChange={(e) => searchSongs(e.target.value)} />
+              <button onClick={() => setSearch('')}>{search && <MdClear />}</button>
             </span>
           </section>
         </header>
 
-        <section className="container reading">
-          {showSongs(filteredSongs)}
-        </section>
+        <section className="container reading">{showSongs(filteredSongs)}</section>
       </article>
     </Layout>
   )
@@ -107,10 +95,7 @@ function shuffle(array) {
   while (currentIndex !== 0) {
     randomIndex = Math.floor(Math.random() * currentIndex)
     currentIndex--
-      ;[array[currentIndex], array[randomIndex]] = [
-        array[randomIndex],
-        array[currentIndex],
-      ]
+    ;[array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]]
   }
 
   return array

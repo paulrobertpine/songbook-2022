@@ -1,20 +1,18 @@
-import React, { useState } from "react"
-import { graphql } from "gatsby"
-import ChordSheetJS from "chordsheetjs"
-import { createCP } from "simplechordpro"
-import Layout from "../components/layout"
-import Scroller from "../components/scroller"
-import Video from "../components/video"
-import { AiFillPlusCircle, AiFillMinusCircle } from "react-icons/ai"
+import React, { useState } from 'react'
+import { graphql } from 'gatsby'
+import ChordSheetJS from 'chordsheetjs'
+import { createCP } from 'simplechordpro'
+import Layout from '../components/layout'
+import Scroller from '../components/scroller'
+import Video from '../components/video'
+import { AiFillPlusCircle, AiFillMinusCircle } from 'react-icons/ai'
 
 export default function Song({ data }) {
   const { frontmatter, rawMarkdownBody } = data.markdownRemark
   const chordProSong = createCP(rawMarkdownBody)
   const parser = new ChordSheetJS.ChordProParser()
 
-  const [song, setSong] = useState(
-    parser.parse(chordProSong).setKey(frontmatter.key)
-  )
+  const [song, setSong] = useState(parser.parse(chordProSong).setKey(frontmatter.key))
 
   const formatter = new ChordSheetJS.HtmlDivFormatter()
   const disp = formatter.format(song)
@@ -29,9 +27,11 @@ export default function Song({ data }) {
               <nav className="transposer">
                 <button onClick={() => setSong(song.transposeDown())}>
                   <AiFillMinusCircle />
+                  <span>Transponse down</span>
                 </button>
                 <button onClick={() => setSong(song.transposeUp())}>
                   <AiFillPlusCircle />
+                  <span>Transponse up</span>
                 </button>
               </nav>
             </span>
@@ -39,10 +39,7 @@ export default function Song({ data }) {
           </section>
         </header>
 
-        <section
-          className="song-content reading"
-          dangerouslySetInnerHTML={{ __html: disp }}
-        />
+        <section className="song-content reading" dangerouslySetInnerHTML={{ __html: disp }} />
         <Video url={frontmatter.youtube} title={frontmatter.title} />
       </article>
     </Layout>
