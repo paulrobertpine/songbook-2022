@@ -22,7 +22,7 @@ I[G]f we burn it down and it t[D]akes all night
 It's a [Asus2]slow bur[Em]n,  [G]   [D]yeah
 
 [Asus2] [Em][G] [D]
-[Asus2] [Em][G] [D]
+[Asus2] [C][G] [D]
 
 In T[Asus2]ennessee, the [Em]sun's goin' down
 But [G]in Beijing, they're he[D]ading out to work[Asus2][C][G][D]
@@ -37,16 +37,14 @@ It's a [Asus2]slow bur[Em]n[G][D]
 
 [C]  ooh whatever feels good[Em]
 
-[Asus2](Ahhh)[Em][G][D]
-[Asus2](Ahhh)[C][G][D]
-[Asus2](Ahhh)[Em][G][D]
-[Asus2](Ahhh)[C][G][D]
-[Asus2](Ahhh)[Em][G][D]
-[Asus2](Ahhh)[C][G][D]
-[Asus2] [Em][G][D]
-
-[Asus2] [C][G][D]
-
+[Asus2] [Em][G] [D]
+[Asus2] [C][G] [D]
+[Asus2] [Em][G] [D]
+[Asus2] [C][G] [D]
+[Asus2] [Em][G] [D]
+[Asus2] [C][G] [D]
+[Asus2] [Em][G] [D]
+[Asus2] [C][G] [D]
 
 [Asus2]Old soul, w[Em]aiting my turn
 I [G]know a few things, but I s[D]till got a lot to l[Asus2]earn[C][G]
